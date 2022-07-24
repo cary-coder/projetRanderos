@@ -1,0 +1,126 @@
+{% extends "base.html.twig"%}
+{# on hérite de la page base.thml.twig #}
+
+{% block body%}
+{{ parent() }}
+{# permet de garder le contenu du block parent situé dans base#}
+
+<header>
+	<navLogo</a class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Randeros</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="{{ path('app_home')}}">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ path('articles_all')}}">Articles</a>
+					</li>
+					{% if not is_granted("IS_AUTHENTICATED_FULLY") %}
+
+						<li class="nav-item">
+							<a class="nav-link" href="{{ path('app_login')}}">Connexion</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ path('app_register')}}">Inscription</a>
+
+						</li>
+					{% else %}
+						<li class="nav-item">
+							<a class="nav-link" href="{{path('app_logout')}}">Déconnexion</a>
+
+						</li>
+					{% endif %}
+					{% if is_granted("IS_AUTHENTICATED_FULLY") and is_granted("ROLE_ADMIN") %}
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Admin
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li>
+									<a class="dropdown-item" href="{{ path('admin_ajout_article')}}">Ajout d'un Article</a>
+
+								</li>
+								<li>
+									<a class="dropdown-item" href="{{ path('admin_ajout_categorie')}}">Ajout d'une categorie</a>
+
+								</li>
+
+								<li>
+									<a class="dropdown-item" href="{{ path('admin_gestion_articles')}}">Gestion Articles</a>
+
+								</li>
+								<li>
+									<a class="dropdown-item" href="{{ path('admin_gestion_categories')}}">Gestion Categories</a>
+
+								</li>
+							</ul>
+						</li>
+					</ul>
+				{% endif %}
+			</div>
+			{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+				<h4 class="text-success">
+					Bonjour
+					{{app.user.pseudo}}
+				</h4>
+			{% endif %}
+
+		</div>
+	</nav>
+</header>
+
+<main class="container mb-5 pb-5">
+	{% for message in app.flashes('error') %}
+		<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+			<div class="card-header">Erreur!</div>
+
+			<div class="card-body">
+				<h4 class="card-title">{{message}}</h4>
+			</div>
+		{% endfor %}
+		{% for message in app.flashes('success') %}
+			<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+				<div class="card-header">Succès!</div>
+
+				<div class="card-body">
+					<h4 class="card-title">{{message}}</h4>
+				</div>
+			</div>
+		{% endfor %}
+
+		{% block content %}
+			{# ce block restera vide dans le layout, c'est là ou viendra s'insérer le contenu propre à chaque page #}
+		{% endblock %}
+	</main>
+
+	<footer class="fixed-bottom bg-primary">
+		<nav class="nav">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link active" href="{{ path('home_cgu')}}">-CGU</a>
+
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('home_contact')}}">-Nous contacter</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('home_qui')}}">
+
+						- Qui sommes nous</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('home_liens')}}">
+						- Liens utiles</a>
+				</li>
+			</nav>
+			<div class="nav justify-content-center">
+				<p class="text-success">&copy; tous droits reservés, Randeros</p>
+			</div>
+		</footer>
+	{% endblock body%}

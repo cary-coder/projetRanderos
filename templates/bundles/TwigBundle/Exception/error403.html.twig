@@ -1,0 +1,15 @@
+{% extends "layout.html.twig" %}
+{% block title %}
+	error 403
+{% endblock %}
+{%
+block content%}
+
+<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+	<div class="card-header">Error!</div>
+	<div class="card-body">
+		<h4 class="card-title">Vous n'avez pas les droits pour accèder a cette action!</h4>
+		<p class="card-text">
+			contactez l'administrateur du site!</p>
+	</div>
+{% endblock content%}

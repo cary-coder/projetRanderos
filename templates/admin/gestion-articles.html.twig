@@ -1,0 +1,75 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}gestion articles
+{% endblock %}
+
+{% block content %}
+	<table class="table text-center ">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">Id</th>
+				<th scope="col">titre</th>
+				<th scope="col">auteur</th>
+				<th scope="col">contenu</th>
+				<th scope="col">photos</th>
+				<th scope="col">date de creation</th>
+				<th scope="col">date de modification</th>
+				<th scope="col">categorie</th>
+				<th scope="col">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for article in articles %}
+				<tr>
+					<td>{{ article.id }}</td>
+					<td>{{ article.titre }}</td>
+					<td>{{ article.auteur }}</td>
+					<td>{{ article.contenu | slice(0, 250) }}</td>
+					<td>
+						{% if article.images is not null %}
+							{% for image in article.images %}
+								<div class="row mt-10">
+									<div class="col-md-12">
+										<img class="img-thumbnail" src="{{ asset('photosArticles/' ~ image.name)}}" alt="" width="100">
+										<a href="{{ path('admin_delete_image', {id: image.id}) }}">
+											<i class="fa-solid fa-trash-can text-danger" onclick="return confirm('êtes vous sûr de vouloir supprimer l'image?')"></i>
+										</a>
+
+									</div>
+								</div>
+							{% endfor %}
+						{% endif %}
+					</td>
+					<td>{{ article.dateDeCreation | date("d/m/Y \à H\\hi") }}</td>
+					<td>{{ article.dateDeModification | date("d/m/Y \à H\\hi") }}</td>
+					<td>
+						{%if article.categorie%}
+							{{ article.categorie.nom}}
+							{%else%}
+							inconnue
+						{% endif %}
+					</td>
+					<td>
+						<a href="{{ path('admin_details_article', {id: article.id} ) }}">
+							<i class="fa fa-eye mx-1 text-success"></i>
+						</a>
+
+						<a href="{{ path('admin_update_article', {id: article.id}) }}">
+							<i class="fa fa-edit mx-1 text-success"></i>
+						</a>
+
+						<a href="{{ path('admin_delete_article', {id: article.id}) }}">
+							<i class="fa-solid fa-trash-can text-danger" onclick="return confirm('êtes vous sûr de vouloir supprimer le article ?')"></i>
+						</a>
+
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<a href="{{ path('admin_ajout_article')}}">
+		<button type="button" class="btn btn-success">
+			ajouter article</button>
+	</a>
+
+{% endblock %}

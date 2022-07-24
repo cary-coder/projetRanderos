@@ -1,0 +1,25 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}
+	details categorie
+	{{categorie.nom }}
+{% endblock %}
+
+{% block content %}
+	<div class="row d-flex justify-content-center text-center">
+		<h1>
+			Details de la categorie n°
+			{{ categorie.id }}</h1>
+		<h3 class="text-uppercase text-success">
+			{{ categorie.nom }}</h3>
+
+		<div class="card" style="width: 50rem;">
+			<img class="d-block w-100 vh-50" src="{{asset('photosArticles/' ~ categorie.photo)}}" alt="Card image cap">
+
+			<div class="card-body">
+				<p class="card-text">{{ categorie.contenu }}
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

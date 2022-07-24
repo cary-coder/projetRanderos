@@ -1,0 +1,38 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}
+	{{ article.titre }}
+{% endblock %}
+{% block content %}
+	<div class="row d-flex justify-content-center text-center">
+		<h3 class="text-uppercase text-success">{{article.titre}}</h3>
+		<h4 class="text-uppercase text-info">
+			{{ article.categorie.nom }}</h4>
+		<h4 class="card-title">{{article.auteur}}</h4>
+		<h5 class="card-title">{{article.dateDeCreation | date("d/m/Y \à H\\hi") }}
+			<strong>date d'ajout :
+			</strong>
+		</h5>
+		<div class="card" style="width: 50em">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					{% for image in article.images %}
+						<div {% if loop.index0==0 %} class="carousel-item active" {% else %} class="carousel-item" {% endif %}>
+							<img src="{{ asset('photosArticles/' ~ image.name ) }}" class="d-block rounded w-100 vh-50" alt="image">
+						</div>
+					{% endfor %}
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+				<div class="card-body">
+					<p class="card-text">{{ article.contenu }}</p>
+				</div>
+			</div>
+		</div>
+	{% endblock content %}

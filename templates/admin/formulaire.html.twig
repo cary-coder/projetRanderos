@@ -1,0 +1,12 @@
+{% extends 'layout.html.twig' %}
+{% block title %}
+	{{ parent() }}
+	-formulaire articles
+{%
+endblock %}
+
+{% block content %}
+	<h1>Formulaire article</h1>
+
+	{{ form(formArticle) }}{% endblock content %}
+

@@ -1,0 +1,49 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}gestion categories
+{% endblock %}
+
+{% block content %}
+	<table class="table text-center ">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">Id</th>
+				<th scope="col">Nom</th>
+				<th scope="col">contenu</th>
+				<th scope="col">photos</th>
+				<th scope="col">Action</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			{% for categorie in categories %}
+				<tr>
+					<td>{{ categorie.id }}</td>
+					<td>{{ categorie.nom }}</td>
+					<td>{{ categorie.contenu | slice(0, 250) }}</td>
+
+					<td><img class="img-thumbnail" src="{{ asset('photosArticles/' ~ categorie.photo)}}" alt="{{categorie.nom}}"></td>
+					<td>
+						<a href="{{ path( 'admin_details_categorie',{id: categorie.id} )}}">
+							<i class="fa fa-eye mx-1 text-success"></i>
+						</a>
+
+						<a href="{{ path('admin_update_categorie', {id: categorie.id}) }}">
+
+							<i class="fa fa-edit mx-1 text-success"></i>
+						</a>
+
+						<a href="{{ path('admin_delete_categorie', {id: categorie.id}) }}">
+
+							<i class="fa-solid fa-trash-can text-danger" onclick="return confirm('êtes vous sûr de vouloir supprimer la categorie ?')"></i>
+						</a>
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</tbody>
+</table>
+<a href="{{ path('admin_ajout_categorie')}}">
+	<button type="button" class="btn btn-success">
+		ajouter categorie</button>
+</a>{% endblock content%}
