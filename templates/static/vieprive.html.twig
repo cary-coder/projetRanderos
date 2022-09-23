@@ -1,0 +1,50 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}
+	Privacy and cookie management policy (EU)
+{% endblock %}
+
+{% block content %}
+	<div class="container-fluid">
+		<div class="center text-center">
+			<img src="/image/randeros4.jpg" class="img-fluid rounded-bottom" width="480" height="350" alt="paysage">
+			<h2 class="text-primary">
+				{{ 'Politique de gestion de la vie privée et des cookies (UE)' | trans }}
+			</h2>
+		</div>
+		<h4 class="text-primary">{{ 'Que sont les cookies?' | trans }}</h4>
+		<p>
+			{% trans %}Un cookie est un petit fichier stocké par un serveur dans le terminal (ordinateur, téléphone, etc.) d’un utilisateur et associé à un domaine web (c’est à dire dans la majorité des cas à l’ensemble des pages d’un même site web).  Ce fichier est automatiquement renvoyé lors de contacts ultérieurs avec le même domaine.{% endtrans %}
+			<br>{% trans %}Les cookies ont de multiples usages : ils peuvent servir à mémoriser votre identifiant client auprès d'un site marchand, le contenu courant de votre panier d'achat, la langue d’affichage de la page web, un identifiant permettant de tracer votre navigation à des fins statistiques ou publicitaires, etc. Certains de ces usages sont strictement nécessaires aux fonctionnalités expressément demandées par l’utilisateur ou bien à l’établissement de la communication et donc exemptés de consentement. D’autres, qui ne correspondent pas à ces critères, nécessitent un consentement de l’utilisateur avant lecture ou écriture.{% endtrans %}
+			<br>{% trans %}La distinction entre cookies « tiers » (ou « third party ») et cookie « internes » (ou « first-party ») est technique.{% endtrans %}</p>
+
+		<p>{% trans %}Lorsqu'un utilisateur visite un site web, il consulte en pratique un « domaine » qui termine en général par une extension de type .com ou .fr (par exemple monsite.com est un domaine), les contenus peuvent être transmis depuis le domaine qu’il visite ou bien via d’autres domaines qu’il n’a pas entré lui-même et qui appartiennent à des tiers. En effet, chaque cookie est associé à un domaine et envoyé ou reçu à chaque fois que le navigateur va « appeler » ce domaine.{% endtrans %}
+			<br> {% trans %}En pratique :les cookies « internes » sont déposés par le site consulté par l’internaute, plus précisément sur le domaine du site. Ils peuvent être utilisés pour le bon fonctionnement du site ou pour collecter des données personnelles afin de suivre le comportement de l’utilisateur et servir à des finalités publicitaires. {% endtrans %}</p>
+		<p>{% trans %}Les cookies « tiers » sont les cookies déposés sur des domaines différents de celui du site principal, généralement gérés par des tiers qui ont été interrogés par le site visité et non par l’internaute lui-même : ces cookies peuvent aussi être nécessaires au bon fonctionnement du site mais ils servent majoritairement à permettre au tiers de voir quelles pages ont été visitées sur le site en question par un utilisateur et de collecter des informations sur lui, notamment à des fins publicitaires.
+			Le fait que les cookies soient « internes» ou « tiers » est une distinction technique qui n’a pas de conséquence sur le fait de devoir demander ou pas le consentement.
+			{% endtrans %}<br>
+			{% trans %}Dans la pratique, une grande majorité des cookies « tiers » ont des finalités qui nécessitent le consentement (par exemple publicitaire), mais on peut également trouver des cookies « tiers » qui sont effectivement strictement nécessaires à une fonctionnalité expressément demandée par l’utilisateur et donc exempté de consentement. C’est le cas, par exemple, des cookies servant uniquement à de l'authentification fédérée (lorsqu'un compte unique permet d'accéder à plusieurs sites). {% endtrans %}
+			<a href="https://www.cnil.fr">{{'source:' | trans }} CNIL
+			</a>
+		</p>
+		<h4 class="text-primary">
+			<strong>{{ 'Information:' | trans }}</strong>
+		</h4>
+		<p>
+			{% trans %}Ce site utilise des cookies nécessaires à son bon fonctionnement. Ils ne peuvent pas être désactivés.{% endtrans %}
+			<br>
+			{% trans %}En autorisant ces services tiers, lors de la consultation du site {% endtrans %}
+			<strong>{% trans %}Tenerife Randeros {% endtrans %} &copy</strong>
+			{% trans %}et lors de l'utilisation des {% endtrans %}
+			<strong>{% trans %}liens vers des sites tiers {% endtrans %}</strong>
+			{% trans %}proposés dans le contenu, vous acceptez le dépôt et la lecture de cookies et l'utilisation de technologies de suivi nécessaires à leur bon fonctionnement, de personalisation ou des publicités pour vous proposer des offres ou des services adaptés à vos centres d'intérêts sur notre site ou ceux des tiers.
+		{% endtrans %}</p>
+		<p>
+			<strong>{% trans %}À tout moment, {% endtrans %}</strong>
+			{% trans %}vous pouvez utiliser le gestionnaire de cookies à partir de la fenetre modale en bas à droite sur {% endtrans %}
+			<strong>{% trans %}notre site {% endtrans %}</strong>.
+			{% trans %}Vous trouverez alors, dans le panneau du gestionnaire de cookies, une liste détaillé des services que notre site utilise et la possibilité d'acepter ou d'interdire chaque service.{% endtrans %}</p>
+		<p>{% trans %}Vous pouvez aussi utiliser votre navigateur internet pour supprimer automatiquement ou manuellement les cookies. Vous trouverez plus d’informations sur ces options dans les documents de support ou les instructions de la section Aide de votre navigateur.
+		{% endtrans %}</p>
+	</div>
+{% endblock content %}

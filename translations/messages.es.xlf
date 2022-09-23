@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="es" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="usdCMuU" resname="Lire plus">
+        <source>Lire plus</source>
+        <target>Leer más</target>
+      </trans-unit>
+      <trans-unit id="7mVR21x" resname="publié le:">
+        <source>publié le:</source>
+        <target>publicado el:</target>
+      </trans-unit>
+      <trans-unit id="sRHhMRx" resname="Vers articles">
+        <source>Vers articles</source>
+        <target>Ver artículos</target>
+      </trans-unit>
+      <trans-unit id="EFuDIF1" resname="Vers ouvrages">
+        <source>Vers ouvrages</source>
+        <target>Ver trabajos</target>
+      </trans-unit>
+      <trans-unit id="kF1vmW." resname="Voir articles">
+        <source>Voir articles</source>
+        <target>Ver artículos</target>
+      </trans-unit>
+      <trans-unit id="HTS2wCu" resname="Nous vous présentons ici les expériences de nos différents itinéraires et randonnées à Tenerife et quelques informations utiles.&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;Bonne lecture!">
+        <source>Nous vous présentons ici les expériences de nos différents itinéraires et randonnées à Tenerife et quelques informations utiles.
+							Bonne lecture!</source>
+        <target>Aquí te presentamos las experiencias de nuestras diferentes rutas y caminatas en Tenerife y alguna información útil.
+              ¡Buena lectura!</target>
+      </trans-unit>
+      <trans-unit id="A4G3aXx" resname="Bienvenue sur le site Tenerife Randeros">
+        <source>Bienvenue sur le site Tenerife Randeros</source>
+        <target>Bienvenidos a la web de Tenerife Randeros</target>
+      </trans-unit>
+      <trans-unit id="NWM7B1k" resname="L'eau souterraine à Tenerife">
+        <source>L'eau souterraine à Tenerife</source>
+        <target>Las aguas subterráneas en Tenerife</target>
+      </trans-unit>
+      <trans-unit id="_NdJRUN" resname="Les ouvrages">
+        <source>Les ouvrages</source>
+        <target>Los trabajos</target>
+      </trans-unit>
+      <trans-unit id="NINIA2J" resname="INTRODUCTION">
+        <source>INTRODUCTION</source>
+        <target>INTRODUCCIÓN</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Inicio</target>
+      </trans-unit>
+      <trans-unit id="sUrHikb" resname="Articles">
+        <source>Articles</source>
+        <target>Artículos</target>
+      </trans-unit>
+      <trans-unit id="eJIB8U8" resname="Nouveautés">
+        <source>Nouveautés</source>
+        <target>Novedades</target>
+      </trans-unit>
+      <trans-unit id="TvBzUlU" resname="Tous les articles">
+        <source>Tous les articles</source>
+        <target>Todos los artículos</target>
+      </trans-unit>
+      <trans-unit id="M2eaNcS" resname="Tenerife plus">
+        <source>Tenerife plus</source>
+        <target>Tenerife más</target>
+      </trans-unit>
+      <trans-unit id="YdaVBBA" resname="Connexion">
+        <source>Connexion</source>
+        <target>Conectar</target>
+      </trans-unit>
+      <trans-unit id="z7GsDIB" resname="Inscription">
+        <source>Inscription</source>
+        <target>Registrarse</target>
+      </trans-unit>
+      <trans-unit id="_1_eksG" resname="Déconnexion">
+        <source>Déconnexion</source>
+        <target>Cerrar sesión</target>
+      </trans-unit>
+      <trans-unit id="Ai4w4gn" resname="À Propos">
+        <source>À Propos</source>
+        <target>A Propósito</target>
+      </trans-unit>
+      <trans-unit id="nziugJj" resname="Nous contacter">
+        <source>Nous contacter</source>
+        <target>Contáctenos</target>
+      </trans-unit>
+      <trans-unit id="CjERsOe" resname="Vie privée et cookies">
+        <source>Vie privée et cookies</source>
+        <target>Privacidad y cookies</target>
+      </trans-unit>
+      <trans-unit id="4i9r80R" resname="Liens utiles et bibliographie">
+        <source>Liens utiles et bibliographie</source>
+        <target>Enlaces de interés y bibliografía</target>
+      </trans-unit>
+      <trans-unit id="qOlsNnL" resname="Remerciements">
+        <source>Remerciements</source>
+        <target>Agradecimientos</target>
+      </trans-unit>
+      <trans-unit id="OYw75BB" resname="Tous droits reservés">
+        <source>Tous droits reservés</source>
+        <target>Todos los derechos reservados</target>
+      </trans-unit>
+      <trans-unit id="8cEWKSp" resname="Conditions générales d'utilisation">
+        <source>Conditions générales d'utilisation</source>
+        <target>Condiciones Generales de uso</target>
+      </trans-unit>
+      <trans-unit id="5hyUPgt" resname="Icônes créées par Freepik">
+        <source>Icônes créées par Freepik</source>
+        <target>Iconos creados por Freepik</target>
+      </trans-unit>
+      <trans-unit id="m9YK8GX" resname="Vous pouvez nous contacter par e-mail">
+        <source>Vous pouvez nous contacter par e-mail</source>
+        <target>Puede ponerse en contacto con nosotros por correo electrónico</target>
+      </trans-unit>
+      <trans-unit id="3CfObNB" resname="Nous nous ferons un plaisir de vous répondre dans les plus brefs délais">
+        <source>Nous nous ferons un plaisir de vous répondre dans les plus brefs délais</source>
+        <target>Estaremos encantados de responderle lo antes posible</target>
+      </trans-unit>
+      <trans-unit id="4Krc6aa" resname="A la fin de nos vacances à Tenerife en 2011, nous avons décidé de venir nous y installer plus tard. Aujourd'hui c'est chose faite et, comme randonneurs chevronnés, nous pouvons apprécier chaque jour les innombrables richesses de cette île.">
+        <source>A la fin de nos vacances à Tenerife en 2011, nous avons décidé de venir nous y installer plus tard. Aujourd'hui c'est chose faite et, comme randonneurs chevronnés, nous pouvons apprécier chaque jour les innombrables richesses de cette île.</source>
+        <target>Al finalizar nuestras vacaciones en Tenerife en 2011, decidimos venir a instalarnos allí más adelante. Hoy ya está hecho y, como senderistas avezados, podemos apreciar cada día las innumerables riquezas de esta isla.</target>
+      </trans-unit>
+      <trans-unit id="qbqeiC7" resname="Au delà des paysages magnifiques, des côtes de l'océan, des monts et des barrancos, jusqu'au  sommet du Teide, nous nous interessons à un sujet très important pour une île volcanique qui ne possède ni fleuve, ni rivière : l'eau.">
+        <source>Au delà des paysages magnifiques, des côtes de l'océan, des monts et des barrancos, jusqu'au  sommet du Teide, nous nous interessons à un sujet très important pour une île volcanique qui ne possède ni fleuve, ni rivière : l'eau.</source>
+        <target>Más allá de los magníficos paisajes, las costas del océano, las montañas y los barrancos, hasta la cima del Teide, nos interesa un tema muy importante para una isla volcánica que no tiene ríos: el agua.</target>
+      </trans-unit>
+      <trans-unit id="q4WhjAh" resname="Qui sommes-nous?">
+        <source>Qui sommes-nous?</source>
+        <target>Quiénes somos?</target>
+      </trans-unit>
+      <trans-unit id="tBQxeO." resname="Ainsi depuis plusieurs mois, nous partons chaque semaine, un peu partout dans l'île, à la rencontre des galeries d'eau qui fournissent depuis plus d'un siècle, et encore aujourd'hui la majeure partie de l'approvisionement de Tenerife.">
+        <source>Ainsi depuis plusieurs mois, nous partons chaque semaine, un peu partout dans l'île, à la rencontre des galeries d'eau qui fournissent depuis plus d'un siècle, et encore aujourd'hui la majeure partie de l'approvisionement de Tenerife.</source>
+        <target>Así, desde hace varios meses, salimos todas las semanas, por toda la isla, al encuentro de las galerías de agua que han proporcionado durante más de un siglo, y aún hoy, la mayor parte del abastecimiento de Tenerife.</target>
+      </trans-unit>
+      <trans-unit id="1krWYJ7" resname="Ce site a pour objectif de partager nos découvertes et de comprendre ce qui se passe en amont des robinets d'eau de nos habitations">
+        <source>Ce site a pour objectif de partager nos découvertes et de comprendre ce qui se passe en amont des robinets d'eau de nos habitations</source>
+        <target>Este sitio web tiene como objetivo compartir nuestros descubrimientos y comprender lo que sucede aguas arriba de los grifos de agua en nuestros hogares.</target>
+      </trans-unit>
+      <trans-unit id="j8lagjX" resname="L'auteur ne peut être tenu responsable d'une mauvaise utilisation de ce site. Les éléments apportés sont purement informatifs.">
+        <source>L'auteur ne peut être tenu responsable d'une mauvaise utilisation de ce site. Les éléments apportés sont purement informatifs.</source>
+        <target>El autor no se hace responsable del mal uso de este sitio web. Los elementos proporcionados son meramente informativos.</target>
+      </trans-unit>
+      <trans-unit id="AN5_HjR" resname="Tous les tunnels des galeries comportent des&#9;dangers mortels comme les gaz ou les écroulements. Depuis l'accident tragique de 2007 dans une galerie de Los Silos, toutes les entrées de tunnels sont fermées par des grilles ou totalement condamnées et comportent un panneau décrivant la galerie et rappelant les dangers mortels.">
+        <source>Tous les tunnels des galeries comportent des	dangers mortels comme les gaz ou les écroulements. Depuis l'accident tragique de 2007 dans une galerie de Los Silos, toutes les entrées de tunnels sont fermées par des grilles ou totalement condamnées et comportent un panneau décrivant la galerie et rappelant les dangers mortels.</source>
+        <target>Todos los túneles de las galerías contienen peligros mortales como gases o derrumbes. Desde el trágico accidente de 2007 en una galería de Los Silos, todas las entradas a los túneles están cerradas con rejas o totalmente condenadas y cuentan con un cartel que describe la galería y recuerda los peligros mortales.</target>
+      </trans-unit>
+      <trans-unit id="0p6CJ.y" resname="Tous les ouvrages de captation d'eau à Tenerife sont privées.">
+        <source>Tous les ouvrages de captation d'eau à Tenerife sont privées.</source>
+        <target>Todas las obras de captación de agua en Tenerife son propiedad privada.</target>
+      </trans-unit>
+      <trans-unit id="cXEW2Ra" resname="Sur les chemins qui nous mènent aux galeries ou aux puits, nous rencontrons souvent des habitants qui travaillent dans leur ferme située dans la mediania. Ils nous apportent de précieuses indications sur les galeries proches ou sur la distribution de l'eau dans leur secteur. Nous les en remercions.">
+        <source>Sur les chemins qui nous mènent aux galeries ou aux puits, nous rencontrons souvent des habitants qui travaillent dans leur ferme située dans la mediania. Ils nous apportent de précieuses indications sur les galeries proches ou sur la distribution de l'eau dans leur secteur. Nous les en remercions.</source>
+        <target>En los caminos que nos conducen a las galerías o los pozos, a menudo nos encontramos con habitantes que trabajan en su finca situada en la medianía. Nos proporcionan valiosa información sobre las galerías cercanas o sobre la distribución del agua en su sector. Queremos darles las gracias.</target>
+      </trans-unit>
+      <trans-unit id="S1JMoAn" resname="De même, nous avons rencontré des «mineros» (travailleurs des galeries), toujours très accueillants et avec qui nous avons pu échanger pendant des heures sur le thème des galeries et des puits.">
+        <source>De même, nous avons rencontré des «mineros» (travailleurs des galeries), toujours très accueillants et avec qui nous avons pu échanger pendant des heures sur le thème des galeries et des puits.</source>
+        <target>También solemos encontrarnos con los mineros, que siempre son muy acogedores y con los que podemos conversar durante horas sobre el tema de galerías y pozos.</target>
+      </trans-unit>
+      <trans-unit id="Kh_erMA" resname="A ce titre, nous souhaitons remercier nos amis Juan José, Cristian et leur collègues de l'entreprise El Magroño S.L. pour leur gentillesse et les explications qu'ils nous donnent, indispensables à la comprehension de leur dur travail.">
+        <source>A ce titre, nous souhaitons remercier nos amis Juan José, Cristian et leur collègues de l'entreprise El Magroño S.L. pour leur gentillesse et les explications qu'ils nous donnent, indispensables à la comprehension de leur dur travail.</source>
+        <target>En este sentido, queremos agradecer a nuestros amigos Juan José, Cristian y todos sus compañeros de la empresa El Magroño S.L. por su amabilidad y las explicaciones que nos brindan, que son fundamentales para entender su arduo trabajo. </target>
+      </trans-unit>
+      <trans-unit id="WfdccRy" resname="SITES ET PUBLICATIONS">
+        <source>SITES ET PUBLICATIONS</source>
+        <target>SITIOS Y PUBLICACIONES</target>
+      </trans-unit>
+      <trans-unit id="7g0tEsq" resname="(Sources des informations fournies)">
+        <source>(Sources des informations fournies)</source>
+        <target>(Fuentes de la información proporcionada)</target>
+      </trans-unit>
+      <trans-unit id="OQ70IlU" resname="Liens">
+        <source>Liens</source>
+        <target>Enlaces</target>
+      </trans-unit>
+      <trans-unit id="JLYMCB6" resname="Bibliographie">
+        <source>Bibliographie</source>
+        <target>Bibliografía</target>
+      </trans-unit>
+      <trans-unit id="jnT1vhE" resname="Ouvrages">
+        <source>Ouvrages</source>
+        <target>Obras</target>
+      </trans-unit>
+      <trans-unit id="ZjTJMKD" resname="Politique de gestion de la vie privée et des cookies (UE)">
+        <source>Politique de gestion de la vie privée et des cookies (UE)</source>
+        <target>Política de privacidad y gestión de cookies (UE)</target>
+      </trans-unit>
+      <trans-unit id="HE6pVZM" resname="Que sont les cookies?">
+        <source>Que sont les cookies?</source>
+        <target>¿Qué son las cookies?</target>
+      </trans-unit>
+      <trans-unit id="rsa.Fep" resname="Un cookie est un petit fichier stocké par un serveur dans le terminal (ordinateur, téléphone, etc.) d’un utilisateur et associé à un domaine web (c’est à dire dans la majorité des cas à l’ensemble des pages d’un même site web).  Ce fichier est automatiquement renvoyé lors de contacts ultérieurs avec le même domaine.">
+        <source>Un cookie est un petit fichier stocké par un serveur dans le terminal (ordinateur, téléphone, etc.) d’un utilisateur et associé à un domaine web (c’est à dire dans la majorité des cas à l’ensemble des pages d’un même site web).  Ce fichier est automatiquement renvoyé lors de contacts ultérieurs avec le même domaine.</source>
+        <target>Una cookie es un pequeño archivo que almacena un servidor en el terminal (ordenador, teléfono, etc.) de un usuario y se asocia a un dominio web (es decir, en la mayoría de los casos a todas las páginas de un mismo sitio web). Este archivo se reenvía automáticamente durante los contactos posteriores con el mismo dominio.</target>
+      </trans-unit>
+      <trans-unit id="hv4D0pp" resname="Les cookies ont de multiples usages : ils peuvent servir à mémoriser votre identifiant client auprès d'un site marchand, le contenu courant de votre panier d'achat, la langue d’affichage de la page web, un identifiant permettant de tracer votre navigation à des fins statistiques ou publicitaires, etc. Certains de ces usages sont strictement nécessaires aux fonctionnalités expressément demandées par l’utilisateur ou bien à l’établissement de la communication et donc exemptés de consentement. D’autres, qui ne correspondent pas à ces critères, nécessitent un consentement de l’utilisateur avant lecture ou écriture.">
+        <source>Les cookies ont de multiples usages : ils peuvent servir à mémoriser votre identifiant client auprès d'un site marchand, le contenu courant de votre panier d'achat, la langue d’affichage de la page web, un identifiant permettant de tracer votre navigation à des fins statistiques ou publicitaires, etc. Certains de ces usages sont strictement nécessaires aux fonctionnalités expressément demandées par l’utilisateur ou bien à l’établissement de la communication et donc exemptés de consentement. D’autres, qui ne correspondent pas à ces critères, nécessitent un consentement de l’utilisateur avant lecture ou écriture.</source>
+        <target>Las cookies tienen múltiples usos: se pueden utilizar para memorizar su identificador de cliente con un sitio comercial, el contenido actual de su carrito de compras, el idioma de visualización de la página web, un identificador que le permite rastrear su navegación con fines estadísticos o publicitarios, etc. Algunos de estos usos son estrictamente necesarios para las funcionalidades expresamente solicitadas por el usuario o para el establecimiento de la comunicación y por tanto exentos de consentimiento. Otros, que no cumplen con estos criterios, requieren el consentimiento del usuario antes de leer o escribir.</target>
+      </trans-unit>
+      <trans-unit id="s11p.pr" resname="La distinction entre cookies « tiers » (ou « third party ») et cookie « internes » (ou « first-party ») est technique.">
+        <source>La distinction entre cookies « tiers » (ou « third party ») et cookie « internes » (ou « first-party ») est technique.</source>
+        <target>La distinción entre cookies de "terceros" (o "de terceros") y cookies "internas" (o "de origen") es técnica.</target>
+      </trans-unit>
+      <trans-unit id="VTgHs6O" resname="Lorsqu'un utilisateur visite un site web, il consulte en pratique un « domaine » qui termine en général par une extension de type .com ou .fr (par exemple monsite.com est un domaine), les contenus peuvent être transmis depuis le domaine qu’il visite ou bien via d’autres domaines qu’il n’a pas entré lui-même et qui appartiennent à des tiers. En effet, chaque cookie est associé à un domaine et envoyé ou reçu à chaque fois que le navigateur va « appeler » ce domaine.">
+        <source>Lorsqu'un utilisateur visite un site web, il consulte en pratique un « domaine » qui termine en général par une extension de type .com ou .fr (par exemple monsite.com est un domaine), les contenus peuvent être transmis depuis le domaine qu’il visite ou bien via d’autres domaines qu’il n’a pas entré lui-même et qui appartiennent à des tiers. En effet, chaque cookie est associé à un domaine et envoyé ou reçu à chaque fois que le navigateur va « appeler » ce domaine.</source>
+        <target>Cuando un usuario visita un sitio web, consulta en la práctica un "dominio" que generalmente termina con una extensión del tipo .com o .fr (por ejemplo mysite.com es un dominio), los contenidos pueden ser transmitidos desde el dominio que él visitas o a través de otros dominios en los que no ha entrado él mismo y que pertenecen a terceros. De hecho, cada cookie está asociada a un dominio y se envía o recibe cada vez que el navegador "llama" a este dominio.</target>
+      </trans-unit>
+      <trans-unit id="TK5mM2L" resname="En pratique :les cookies « internes » sont déposés par le site consulté par l’internaute, plus précisément sur le domaine du site. Ils peuvent être utilisés pour le bon fonctionnement du site ou pour collecter des données personnelles afin de suivre le comportement de l’utilisateur et servir à des finalités publicitaires.">
+        <source>En pratique :les cookies « internes » sont déposés par le site consulté par l’internaute, plus précisément sur le domaine du site. Ils peuvent être utilisés pour le bon fonctionnement du site ou pour collecter des données personnelles afin de suivre le comportement de l’utilisateur et servir à des finalités publicitaires.</source>
+        <target>En la práctica: las cookies "internas" son depositadas por el sitio consultado por el usuario de Internet, más precisamente en el dominio del sitio. Pueden utilizarse para el correcto funcionamiento del sitio o para recopilar datos personales con el fin de seguir el comportamiento del usuario y servir con fines publicitarios.</target>
+      </trans-unit>
+      <trans-unit id="Ed.I28m" resname="Les cookies « tiers » sont les cookies déposés sur des domaines différents de celui du site principal, généralement gérés par des tiers qui ont été interrogés par le site visité et non par l’internaute lui-même : ces cookies peuvent aussi être nécessaires au bon fonctionnement du site mais ils servent majoritairement à permettre au tiers de voir quelles pages ont été visitées sur le site en question par un utilisateur et de collecter des informations sur lui, notamment à des fins publicitaires.&#10;&#9;&#9;&#9;Le fait que les cookies soient « internes» ou « tiers » est une distinction technique qui n’a pas de conséquence sur le fait de devoir demander ou pas le consentement.">
+        <source>Les cookies « tiers » sont les cookies déposés sur des domaines différents de celui du site principal, généralement gérés par des tiers qui ont été interrogés par le site visité et non par l’internaute lui-même : ces cookies peuvent aussi être nécessaires au bon fonctionnement du site mais ils servent majoritairement à permettre au tiers de voir quelles pages ont été visitées sur le site en question par un utilisateur et de collecter des informations sur lui, notamment à des fins publicitaires.
+			Le fait que les cookies soient « internes» ou « tiers » est une distinction technique qui n’a pas de conséquence sur le fait de devoir demander ou pas le consentement.</source>
+        <target>Las cookies de “terceros” son cookies colocadas en dominios distintos al del sitio principal, generalmente gestionadas por terceros que han sido consultados por el sitio visitado y no por el propio usuario de Internet: estas cookies también pueden ser necesarias para el correcto funcionamiento del sitio, pero se utilizan principalmente para permitir que un tercero vea qué páginas ha visitado un usuario en el sitio en cuestión y para recopilar información sobre él, en particular con fines publicitarios.
+      El hecho de que las cookies sean "internas" o "de terceros" es una distinción técnica que no tiene ninguna consecuencia sobre si solicitar o no el consentimiento.</target>
+      </trans-unit>
+      <trans-unit id="pFcIsmV" resname="Dans la pratique, une grande majorité des cookies « tiers » ont des finalités qui nécessitent le consentement (par exemple publicitaire), mais on peut également trouver des cookies « tiers » qui sont effectivement strictement nécessaires à une fonctionnalité expressément demandée par l’utilisateur et donc exempté de consentement. C’est le cas, par exemple, des cookies servant uniquement à de l'authentification fédérée (lorsqu'un compte unique permet d'accéder à plusieurs sites).">
+        <source>Dans la pratique, une grande majorité des cookies « tiers » ont des finalités qui nécessitent le consentement (par exemple publicitaire), mais on peut également trouver des cookies « tiers » qui sont effectivement strictement nécessaires à une fonctionnalité expressément demandée par l’utilisateur et donc exempté de consentement. C’est le cas, par exemple, des cookies servant uniquement à de l'authentification fédérée (lorsqu'un compte unique permet d'accéder à plusieurs sites).</source>
+        <target>En la práctica, la gran mayoría de las cookies de "terceros" tienen fines que requieren el consentimiento (por ejemplo, publicidad), pero también podemos encontrar cookies de "terceros" que en realidad son estrictamente necesarias para una funcionalidad solicitada expresamente por el usuario y, por lo tanto, exenta de consentimiento. Este es el caso, por ejemplo, de las cookies utilizadas solo para la autenticación federada (cuando una sola cuenta permite el acceso a varios sitios).</target>
+      </trans-unit>
+      <trans-unit id="Jv.c49c" resname="source:">
+        <source>source:</source>
+        <target>fuente:</target>
+      </trans-unit>
+      <trans-unit id="MscZ47J" resname="Information:">
+        <source>Information:</source>
+        <target>Información:</target>
+      </trans-unit>
+      <trans-unit id="en.6kam" resname="Ce site utilise des cookies nécessaires à son bon fonctionnement. Ils ne peuvent pas être désactivés.">
+        <source>Ce site utilise des cookies nécessaires à son bon fonctionnement. Ils ne peuvent pas être désactivés.</source>
+        <target>Este sitio utiliza cookies necesarias para su correcto funcionamiento. No se pueden deshabilitar.</target>
+      </trans-unit>
+      <trans-unit id="PS5tIYC" resname="En autorisant ces services tiers, lors de la consultation du site">
+        <source>En autorisant ces services tiers, lors de la consultation du site</source>
+        <target>Al autorizar estos servicios de terceros, al consultar el sitio</target>
+      </trans-unit>
+      <trans-unit id="o7xLrOf" resname="Tenerife Randeros">
+        <source>Tenerife Randeros</source>
+        <target>Tenerife Randeros</target>
+      </trans-unit>
+      <trans-unit id="uo14vPr" resname="et lors de l'utilisation des">
+        <source>et lors de l'utilisation des</source>
+        <target>y al usar</target>
+      </trans-unit>
+      <trans-unit id="aNq41aY" resname="liens vers des sites tiers">
+        <source>liens vers des sites tiers</source>
+        <target>los enlaces hacia sitios de terceros</target>
+      </trans-unit>
+      <trans-unit id="7ZLGto0" resname="proposés dans le contenu, vous acceptez le dépôt et la lecture de cookies et l'utilisation de technologies de suivi nécessaires à leur bon fonctionnement, de personalisation ou des publicités pour vous proposer des offres ou des services adaptés à vos centres d'intérêts sur notre site ou ceux des tiers.">
+        <source>proposés dans le contenu, vous acceptez le dépôt et la lecture de cookies et l'utilisation de technologies de suivi nécessaires à leur bon fonctionnement, de personalisation ou des publicités pour vous proposer des offres ou des services adaptés à vos centres d'intérêts sur notre site ou ceux des tiers.</source>
+        <target>propuestos en el contenido, acepta el depósito y la lectura de cookies y el uso de tecnologías de seguimiento necesarias para su correcto funcionamiento, personalización o anuncios para ofrecerle ofertas o servicios adaptados a sus centros de interés en nuestro sitio o los de terceros. </target>
+      </trans-unit>
+      <trans-unit id="I5pSK1x" resname="À tout moment,">
+        <source>À tout moment,</source>
+        <target>En todo momento,</target>
+      </trans-unit>
+      <trans-unit id="Rl0CfQc" resname="vous pouvez utiliser le gestionnaire de cookies à partir de la fenetre modale en bas à droite sur">
+        <source>vous pouvez utiliser le gestionnaire de cookies à partir de la fenetre modale en bas à droite sur</source>
+        <target>puede usar el administrador de cookies desde la ventana modal en la parte inferior derecha de</target>
+      </trans-unit>
+      <trans-unit id="tWru7rJ" resname="notre site">
+        <source>notre site</source>
+        <target>nuestro sitio</target>
+      </trans-unit>
+      <trans-unit id="be78HGK" resname="Vous trouverez alors, dans le panneau du gestionnaire de cookies, une liste détaillé des services que notre site utilise et la possibilité d'acepter ou d'interdire chaque service.">
+        <source>Vous trouverez alors, dans le panneau du gestionnaire de cookies, une liste détaillé des services que notre site utilise et la possibilité d'acepter ou d'interdire chaque service.</source>
+        <target>A continuación, encontrará, en el panel del administrador de cookies, una lista detallada de los servicios que utiliza nuestro sitio y la posibilidad de aceptar o prohibir cada servicio.
+        </target>
+      </trans-unit>
+      <trans-unit id="BGGeglc" resname="Vous pouvez aussi utiliser votre navigateur internet pour supprimer automatiquement ou manuellement les cookies. Vous trouverez plus d’informations sur ces options dans les documents de support ou les instructions de la section Aide de votre navigateur.">
+        <source>Vous pouvez aussi utiliser votre navigateur internet pour supprimer automatiquement ou manuellement les cookies. Vous trouverez plus d’informations sur ces options dans les documents de support ou les instructions de la section Aide de votre navigateur.</source>
+        <target>También puede utilizar su navegador de Internet para eliminar las cookies de forma automática o manual. Puede encontrar más información sobre estas opciones en los documentos de soporte o las instrucciones en la sección de Ayuda de su navegador.</target>
+      </trans-unit>
+      <trans-unit id="acVpEs4" resname="You are logged in as">
+        <source>You are logged in as</source>
+        <target>Has iniciado sesión como</target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>Cerrar sesión</target>
+      </trans-unit>
+      <trans-unit id="VH0F5Aa" resname="Veuillez vous connecter">
+        <source>Veuillez vous connecter</source>
+        <target>Por favor, iniciar sesión</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Correo electrónico</target>
+      </trans-unit>
+      <trans-unit id=".5yLjAZ" resname="Mot de passe">
+        <source>Mot de passe</source>
+        <target>Contraseña</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>Enviar</target>
+      </trans-unit>
+      <trans-unit id="piivmAm" resname="Créer un compte">
+        <source>Créer un compte</source>
+        <target>Crear una cuenta</target>
+      </trans-unit>
+      <trans-unit id="PCX0_17" resname="S'inscrire">
+        <source>S'inscrire</source>
+        <target>Inscribirse</target>
+      </trans-unit>
+      <trans-unit id="kKzpQAZ" resname="Filtrer par">
+        <source>Filtrer par</source>
+        <target>Filtrar por</target>
+      </trans-unit>
+      <trans-unit id="aUuuUHI" resname="Effacer les filtres">
+        <source>Effacer les filtres</source>
+        <target>Borrar los filtros</target>
+      </trans-unit>
+      <trans-unit id="BgiejbC" resname="Voici les derniers articles publiés">
+        <source>Voici les derniers articles publiés</source>
+        <target>Aquí están los últimos artículos publicados</target>
+      </trans-unit>
+      <trans-unit id="RXEugMc" resname="Icônes créées par">
+        <source>Icônes créées par</source>
+        <target>Iconos creados por</target>
+      </trans-unit>
+      <trans-unit id="INsOaOh" resname="Fait par Maria Deschamps | avec">
+        <source>Fait par Maria Deschamps | avec</source>
+        <target>Hecho por Maria Deschamps | con </target>
+      </trans-unit>
+      <trans-unit id="6XrUhru" resname="Veuillez vous connecter pour acceder à cette page">
+        <source>Veuillez vous connecter pour acceder à cette page</source>
+        <target>Por favor inicie sesión para acceder a esta página</target>
+      </trans-unit>
+      <trans-unit id="2GZOvnU" resname="Vous n'avez pas les droits pour accèder à cette page!">
+        <source>Vous n'avez pas les droits pour accèder à cette page!</source>
+        <target>¡Usted no tiene los derechos para acceder a esta página!</target>
+      </trans-unit>
+      <trans-unit id="MQxUkc6" resname="Contactez l'administrateur du site!">
+        <source>Contactez l'administrateur du site!</source>
+        <target>¡Póngase en contacto con el administrador del sitio!</target>
+      </trans-unit>
+      <trans-unit id="zIe9i52" resname="L'url indiquée n'existe pas!">
+        <source>L'url indiquée n'existe pas!</source>
+        <target>¡La URL especificada no existe!</target>
+      </trans-unit>
+      <trans-unit id="kXLo7sm" resname="Bonjour">
+        <source>Bonjour</source>
+        <target>¡Hola</target>
+      </trans-unit>
+      <trans-unit id="sBFnVlo" resname="Vous êtes connecté en tant que">
+        <source>Vous êtes connecté en tant que</source>
+        <target>Estás registrado como</target>
+      </trans-unit>
+      <trans-unit id="sYru0ag" resname="Se déconnecter">
+        <source>Se déconnecter</source>
+        <target>Desconectarse</target>
+      </trans-unit>
+      <trans-unit id="x7afHVX" resname="A Tenerife, comme dans tous les pays du monde, l'eau est une ressource indispensable à la vie. Bien qu'il n'y ait ni fleuve ni rivière dans l'île, les ressources hydriques sont importantes. Elles sont de trois types : les eaux superficielles, les eaux souterraines et les eaux produites industriellement.">
+        <source>A Tenerife, comme dans tous les pays du monde, l'eau est une ressource indispensable à la vie. Bien qu'il n'y ait ni fleuve ni rivière dans l'île, les ressources hydriques sont importantes. Elles sont de trois types : les eaux superficielles, les eaux souterraines et les eaux produites industriellement.</source>
+        <target>En Tenerife, como en todos los países del mundo, el agua es un recurso imprescindible para la vida. Aunque no hay ríos en la isla, los recursos hídricos son importantes. Son de tres tipos: aguas superficiales, aguas subterráneas y aguas de producción industrial.</target>
+      </trans-unit>
+      <trans-unit id="jrZXt93" resname="Tenerife dépend à 80 % des eaux souterraines à la fois pour couvrir ses besoins d'approvisionnement urbain et pour maintenir l'agriculture.">
+        <source>Tenerife dépend à 80 % des eaux souterraines à la fois pour couvrir ses besoins d'approvisionnement urbain et pour maintenir l'agriculture.</source>
+        <target>Tenerife depende en un 80 % de las aguas subterráneas tanto para satisfacer sus necesidades de abastecimiento urbano como para sustentar la agricultura.</target>
+      </trans-unit>
+      <trans-unit id="iSCTCr7" resname="Le sol de l'île est poreux en surface donc assez perméable. Il se transforme en un complexe basal imperméable à une certaine profondeur. L'eau de pluie, la neige et l'humidité qui se condense s'infiltrent dans le sol et atteignent les aquifères (portion de terrain souterrain qui stocke l'eau) se trouvant au niveau du complexe basal. Ces grandes poches d'eau souterraine sont essentielles à la survie puisqu'elles garantissent l'approvisionnement en eau des habitants de l'île. S’il y a un élément qui caractérise le sous-sol d’une île volcanique comme Tenerife, c’est son extraordinaire hétérogénéité, entrainant l’irrégularité de la circulation des eaux souterraines. Ainsi, leur captation à travers la zone saturée rencontre des sections complètement sèches et d'autres avec un fort débit. Certaines zones fournissent donc une quantité d'eau élevée tandis que d’autres zones adjacentes ne fournissent que des débits faibles. En effet, les éléments qui composent le sous-sol (terrains jeunes ou anciens, diques, brèches de grande puissance, etc.) sont organisés selon certaines modalités qui reflètent le lent processus de construction de l’île et entrainent des différences dans le degré de perméabilité de ces éléments lithologiques. Comme principe presque général on peut affirmer que ces différences sont plus grandes dans les terrains jeunes que dans les anciens.">
+        <source>Le sol de l'île est poreux en surface donc assez perméable. Il se transforme en un complexe basal imperméable à une certaine profondeur. L'eau de pluie, la neige et l'humidité qui se condense s'infiltrent dans le sol et atteignent les aquifères (portion de terrain souterrain qui stocke l'eau) se trouvant au niveau du complexe basal. Ces grandes poches d'eau souterraine sont essentielles à la survie puisqu'elles garantissent l'approvisionnement en eau des habitants de l'île. S’il y a un élément qui caractérise le sous-sol d’une île volcanique comme Tenerife, c’est son extraordinaire hétérogénéité, entrainant l’irrégularité de la circulation des eaux souterraines. Ainsi, leur captation à travers la zone saturée rencontre des sections complètement sèches et d'autres avec un fort débit. Certaines zones fournissent donc une quantité d'eau élevée tandis que d’autres zones adjacentes ne fournissent que des débits faibles. En effet, les éléments qui composent le sous-sol (terrains jeunes ou anciens, diques, brèches de grande puissance, etc.) sont organisés selon certaines modalités qui reflètent le lent processus de construction de l’île et entrainent des différences dans le degré de perméabilité de ces éléments lithologiques. Comme principe presque général on peut affirmer que ces différences sont plus grandes dans les terrains jeunes que dans les anciens.</source>
+        <target>El suelo de la isla es poroso en la superficie y por lo tanto bastante permeable. Se transforma en un complejo basal impermeable a cierta profundidad. El agua de lluvia, la nieve y la humedad condensada se filtran en el suelo y llegan a los acuíferos (la parte del suelo subterráneo que almacena agua) a nivel del complejo basal. Estas grandes bolsas de agua subterránea son esenciales para la supervivencia ya que garantizan el abastecimiento de agua para los habitantes de la isla. Si hay un elemento que caracteriza el subsuelo de una isla volcánica como Tenerife es su extraordinaria heterogeneidad, que se traduce en la irregularidad de la circulación de las aguas subterráneas. Así, su captación por la zona saturada se encuentra con tramos completamente secos y otros de gran caudal. Por lo tanto, algunas áreas proporcionan una gran cantidad de agua, mientras que otras áreas adyacentes solo proporcionan caudales bajos. De hecho, los elementos         que componen el subsuelo (terreno joven o antiguo, diques, brechas de gran potencia, etc.) se organizan según determinadas modalidades que reflejan el lento proceso de construcción de la isla y dan lugar a diferencias en el grado de permeabilidad de estos elementos litológicos. Como principio casi general se puede afirmar que estas diferencias son mayores en los terrenos jóvenes que en los antiguos.</target>
+      </trans-unit>
+      <trans-unit id="Tg9Oxpl" resname="Contrairement à d'autres îles qui ont opté pour le système d'exploitation des puits, Tenerife a choisi comme ouvrage de captacion dominant la galerie horizontale qui est la plus adaptée à l'orographie abrupte de l'île. Depuis la fin du XIXème siècle, quelques 1050 galeries ont été creusées, dont certaines mesurent jusqu'à 7 km de long. Ce réseau représente au total plus de 1600 kilomètres forés, même si beaucoup de galeries n'ont jamais été productives ou sont devenues hors d'usage au fil du temps. Si on considère qu'à ce réseau de captages horizontaux s'ajoutent les captages verticaux, c'est à dire plus de 400 puits qui se répartissent le long de la bande littorale, il en résulte qu'il n'y a aucune partie de l'île qui n'a pas ou n'a pas eu de travaux d'extraction d'eau souterraine. En 2005, par exemple, la densité moyenne de ces ouvrages sur le territoire insulaire était de un tout les 1,4 km2.">
+        <source>Contrairement à d'autres îles qui ont opté pour le système d'exploitation des puits, Tenerife a choisi comme ouvrage de captacion dominant la galerie horizontale qui est la plus adaptée à l'orographie abrupte de l'île. Depuis la fin du XIXème siècle, quelques 1050 galeries ont été creusées, dont certaines mesurent jusqu'à 7 km de long. Ce réseau représente au total plus de 1600 kilomètres forés, même si beaucoup de galeries n'ont jamais été productives ou sont devenues hors d'usage au fil du temps. Si on considère qu'à ce réseau de captages horizontaux s'ajoutent les captages verticaux, c'est à dire plus de 400 puits qui se répartissent le long de la bande littorale, il en résulte qu'il n'y a aucune partie de l'île qui n'a pas ou n'a pas eu de travaux d'extraction d'eau souterraine. En 2005, par exemple, la densité moyenne de ces ouvrages sur le territoire insulaire était de un tout les 1,4 km2.</source>
+        <target>A diferencia de otras islas que han optado por el sistema de explotación de pozos, Tenerife ha elegido como estructura de captación dominante la galería horizontal, que se adapta mejor a la escarpada orografía de la isla. Desde finales del siglo XIX se han excavado unas 1050 galerías, algunas de las cuales tienen hasta cerca de 7 km de longitud. Esta red representa un total de más de 1.600 kilómetros perforados, aunque muchas galerías nunca han sido productivas o han quedado fuera de uso con el tiempo. Si consideramos que a estas redes de captación horizontales se le suman las captaciones verticales, es decir más de 400 pozos que se distribuyen a lo largo de la franja litoral, resulta que no hay parte de la isla que no tenga o no tuviera obras de extracción de aguas subterráneas. En 2005, por ejemplo, la densidad media de estas estructuras en el territorio insular era de una cada 1,4 km2.</target>
+      </trans-unit>
+      <trans-unit id="U.linQM" resname="Le réseau de collecte actuel a été construit à partir d'initiatives strictement privées et a radicalement modifié la disponibilité de l'eau à Tenerife : les 700 litres/seconde fournies par des sources naturelles au debut du XXème siècle ont augmenté jusqu'à plus de 7000 litres/s au milieu des années 60. Ce saut quantitatif a eu des conséquences qualitatives très importantes, favorisant le développement de l'agriculture, du tourisme et de l'industrie.">
+        <source>Le réseau de collecte actuel a été construit à partir d'initiatives strictement privées et a radicalement modifié la disponibilité de l'eau à Tenerife : les 700 litres/seconde fournies par des sources naturelles au debut du XXème siècle ont augmenté jusqu'à plus de 7000 litres/s au milieu des années 60. Ce saut quantitatif a eu des conséquences qualitatives très importantes, favorisant le développement de l'agriculture, du tourisme et de l'industrie.</source>
+        <target>La red de recogida actual se construyó a partir de iniciativas estrictamente privadas y ha cambiado radicalmente la disponibilidad de agua en Tenerife: los 700 litros/segundo que proporcionaban los manantiales naturales a principios del siglo XX han aumentado a más de 7000 litros/s a mediados de la década de 1960. Este salto cuantitativo tuvo consecuencias cualitativas muy significativas, favoreciendo el desarrollo de la agricultura, el turismo y la industria.</target>
+      </trans-unit>
+      <trans-unit id="ZeZ5D0n" resname="L'exploitation de l'eau souterraine par le percement de galeries est un processus ancien qui reste toujours aujourd'hui compliqué et dangereux. De nombreux travailleurs ont perdu la vie afin que l'eau puisse être utilisée par les populations. Il est important de s'en souvenir.">
+        <source>L'exploitation de l'eau souterraine par le percement de galeries est un processus ancien qui reste toujours aujourd'hui compliqué et dangereux. De nombreux travailleurs ont perdu la vie afin que l'eau puisse être utilisée par les populations. Il est important de s'en souvenir.</source>
+        <target>La explotación de aguas subterráneas mediante la perforación de galerías es un proceso antiguo que sigue siendo complicado y peligroso en la actualidad. Muchos trabajadores perdieron la vida para que el agua pudiera ser utilizada por las poblaciones. Es importante recordar esto.</target>
+      </trans-unit>
+      <trans-unit id="kiL6RVz" resname="De même, cette exploitation a entrainé à de nombeuses reprises des conflits entre propriétaires terriens et populations ou entre propriétaires terriens eux-mêmes.">
+        <source>De même, cette exploitation a entrainé à de nombeuses reprises des conflits entre propriétaires terriens et populations ou entre propriétaires terriens eux-mêmes.</source>
+        <target>Del mismo modo, esta explotación ha dado lugar en repetidas ocasiones a conflictos entre propietarios y poblaciones o entre los propios propietarios.</target>
+      </trans-unit>
+      <trans-unit id="tua.L65" resname="Des situations qui ont pour origine la répartition des terres entre conquistadores à la fin de la conquête de l'île (à partir de 1496). En effet dans une même région ou municipalité, certaines parcelles possedaient beaucoup de sources naturelles d'autres moins mais toutes généralement en contact avec la même masse d'eau (acuifère saturé ou pas).">
+        <source>Des situations qui ont pour origine la répartition des terres entre conquistadores à la fin de la conquête de l'île (à partir de 1496). En effet dans une même région ou municipalité, certaines parcelles possedaient beaucoup de sources naturelles d'autres moins mais toutes généralement en contact avec la même masse d'eau (acuifère saturé ou pas).</source>
+        <target>Situaciones que se originaron en el reparto de tierras entre conquistadores al final de la conquista de la isla (a partir de 1496). En efecto, en una misma región o municipio, algunas parcelas tenían muchos manantiales naturales y otras menos, pero todas generalmente en contacto con la misma masa de agua (acuífera saturada o no).</target>
+      </trans-unit>
+      <trans-unit id="bz7dZsr" resname="De ce fait le percement d'une nouvelle galerie sur une parcelle entrainait souvent une diminution du débit d'une galerie sur une autre parcelle. Situation qui se réglait toujours par voie de justice.">
+        <source>De ce fait le percement d'une nouvelle galerie sur une parcelle entrainait souvent une diminution du débit d'une galerie sur une autre parcelle. Situation qui se réglait toujours par voie de justice.</source>
+        <target>Como resultado, la perforación de una nueva galería en una parcela a menudo condujo a una reducción en el caudal de una galería en otra parcela. Situación que siempre se resolvía por la vía judicial.</target>
+      </trans-unit>
+      <trans-unit id="0dKfyRw" resname="La question de l'eau à Tenerife (et dans l'Archipel canarien) est donc extrèmement importante. Si l'activité agricole se maintient à un certain niveau (bananes et pommes de terre notamment) malgré la fin de la culture de la tomate, la demande en eau augmente chaque année en fonction de l'augmentation de l'activité touristique. Les ressouces en eau souterraine ne sont pas inépuisables et leur niveau baisse chaque année. Il y a donc danger d'épuisement de cette ressource vieille de millions d'années.">
+        <source>La question de l'eau à Tenerife (et dans l'Archipel canarien) est donc extrèmement importante. Si l'activité agricole se maintient à un certain niveau (bananes et pommes de terre notamment) malgré la fin de la culture de la tomate, la demande en eau augmente chaque année en fonction de l'augmentation de l'activité touristique. Les ressouces en eau souterraine ne sont pas inépuisables et leur niveau baisse chaque année. Il y a donc danger d'épuisement de cette ressource vieille de millions d'années.</source>
+        <target>El tema del agua en Tenerife (y en Canarias) es de suma importancia. Si la actividad agrícola se mantiene en un cierto nivel (plátanos y patatas en particular) y a pesar del fin del cultivo intensivo del tomate, la demanda de agua aumenta cada año en función del aumento de la actividad turística. Los recursos de agua subterránea no son inagotables y su nivel disminuye cada año. Por lo tanto, existe el peligro de agotamiento de este recurso de un millón de años.</target>
+      </trans-unit>
+      <trans-unit id="F8pYMU7" resname="Un plan hydrologique insulaire a été mis en place depuis 1997. Il consiste à analyser la consommation d'eau et à étudier les manières d'augmenter la production d'eau. L'agriculture est le principal secteur de consommation d'eau, suivie par les besoins en approvisionnement des habitants (résidents et touristes).">
+        <source>Un plan hydrologique insulaire a été mis en place depuis 1997. Il consiste à analyser la consommation d'eau et à étudier les manières d'augmenter la production d'eau. L'agriculture est le principal secteur de consommation d'eau, suivie par les besoins en approvisionnement des habitants (résidents et touristes).</source>
+        <target>Desde 1997 existe un plan hidrológico insular. Consiste en analizar el consumo de agua y estudiar formas de aumentar la producción de agua. La agricultura es el principal sector de consumo de agua, seguido de las necesidades de abastecimiento de los habitantes (residentes y turistas).</target>
+      </trans-unit>
+      <trans-unit id="NzvQmWh" resname="Certaines options proposées passent par le dessalement de l'eau de mer et l'épuration des eaux usées afin de les utiliser sur les terres irrigables. La première station de dessalement démarra son activité au sud de l'île en 1998. Tenerife dispose aussi de stations d'amélioration de la qualité des eaux souterraines, qui éliminent les minéraux nocifs qu'elles contiennent (par exemple le fluor) pour la rendre apte à la consommation humaine.">
+        <source>Certaines options proposées passent par le dessalement de l'eau de mer et l'épuration des eaux usées afin de les utiliser sur les terres irrigables. La première station de dessalement démarra son activité au sud de l'île en 1998. Tenerife dispose aussi de stations d'amélioration de la qualité des eaux souterraines, qui éliminent les minéraux nocifs qu'elles contiennent (par exemple le fluor) pour la rendre apte à la consommation humaine.</source>
+        <target>Algunas de las opciones propuestas implican la desalinización de agua de mar y la depuración de aguas residuales para su uso en tierras de regadío. La primera planta desaladora inició su actividad en el sur de la isla en 1998. Tenerife también cuenta con estaciones de mejora de la calidad de las aguas subterráneas, que eliminan los minerales nocivos que contienen (por ejemplo, el flúor) para hacerlas aptas para el consumo humano.</target>
+      </trans-unit>
+      <trans-unit id="BpCPaRJ" resname="L'eau souterraine, les galeries, les puits, et les travailleurs de cette industrie historique font partie du patrimoine de Tenerife (et des Canaries en général). Et pourtant il y a peu de traces du respect et de la valorisation que ce patrimoine mérite.">
+        <source>L'eau souterraine, les galeries, les puits, et les travailleurs de cette industrie historique font partie du patrimoine de Tenerife (et des Canaries en général). Et pourtant il y a peu de traces du respect et de la valorisation que ce patrimoine mérite.</source>
+        <target>Las aguas subterráneas, las galerías, los pozos y los trabajadores de esta histórica industria forman parte del patrimonio de Tenerife (y Canarias en general). Y, sin embargo, existen pocas huellas del respeto y el aprecio que merece este patrimonio.</target>
+      </trans-unit>
+      <trans-unit id="bOX2fku" resname="Décharger le PDF">
+        <source>Décharger le PDF</source>
+        <target>Descargar el PDF</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

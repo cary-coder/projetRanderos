@@ -1,9 +1,14 @@
 twig:
+  globals:
+    locales: '%app.locales%'  
   default_path: "%kernel.project_dir%/templates"
-
+  debug: '%kernel.debug%'
   form_themes:
     - "bootstrap_5_layout.html.twig"
-
 when@test:
-  twig:
-    strict_variables: true
+  strict_variables: true
+  
+  debug: '%kernel.debug%' 
+ # On déclare ci-dessous le nom de la variable globale
+  
+

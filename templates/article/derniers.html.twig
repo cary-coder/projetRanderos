@@ -1,0 +1,47 @@
+{% extends "layout.html.twig" %}
+{% block title %}
+	Derniers articles
+{% endblock
+%}
+{% block content %}
+	<div class="row mt-5">
+		<div class="col-md-10 justify-content-center text-center">
+			<h3 class="text-primary">{% trans %}  Voici les derniers articles publiés {% endtrans %}<h3>
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+						{% for article in articles %}
+							<div class="col">
+								<div class="card">
+									<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+										<div class="carousel-inner">
+											{% for image in article.images %}
+												<div {% if loop.index0==0 %} class="carousel-item active" {% else %} class="carousel-item" {% endif %}>
+													<img src="{{ asset('photosArticles/' ~ image.name ) }}" class="d-block rounded-top w-100 vh-50" alt="image">
+												</div>
+											{% endfor %}
+											<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="visually-hidden">Previous</span>
+											</button>
+											<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="visually-hidden">Next</span>
+											</button>
+										</div>
+									</div>
+									<div class="card-body">
+										<h2 class="card-title text-primary">{{article.titre}}</h2>
+										<h5 class="card-title text-primary">{% trans%}publié le: {% endtrans %}
+											{{article.dateDeCreation | date("d/m/Y")}}</h5>
+										<div class="d-grid gap-4">
+											<a href="{{ path( 'article_show',{id: article.id} )}}" class="btn btn-lg btn-primary" type="button">
+												{% trans %}Lire plus{% endtrans %}</a>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% endblock %}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="usdCMuU" resname="Lire plus">
+        <source>Lire plus</source>
+        <target>Lire plus</target>
+      </trans-unit>
+      <trans-unit id="7mVR21x" resname="publié le:">
+        <source>publié le:</source>
+        <target>publié le:</target>
+      </trans-unit>
+      <trans-unit id="sRHhMRx" resname="Vers articles">
+        <source>Vers articles</source>
+        <target>Vers articles</target>
+      </trans-unit>
+      <trans-unit id="EFuDIF1" resname="Vers ouvrages">
+        <source>Vers ouvrages</source>
+        <target>Vers ouvrages</target>
+      </trans-unit>
+      <trans-unit id="kF1vmW." resname="Voir articles">
+        <source>Voir articles</source>
+        <target>Voir articles</target>
+      </trans-unit>
+      <trans-unit id="HTS2wCu" resname="Nous vous présentons ici les expériences de nos différents itinéraires et randonnées à Tenerife et quelques informations utiles.&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;Bonne lecture!">
+        <source>Nous vous présentons ici les expériences de nos différents itinéraires et randonnées à Tenerife et quelques informations utiles.
+							Bonne lecture!</source>
+        <target>Nous vous présentons ici les expériences de nos différents itinéraires et randonnées à Tenerife et quelques informations utiles.
+							Bonne lecture!</target>
+      </trans-unit>
+      <trans-unit id="A4G3aXx" resname="Bienvenue sur le site Tenerife Randeros">
+        <source>Bienvenue sur le site Tenerife Randeros</source>
+        <target>Bienvenue sur le site Tenerife Randeros</target>
+      </trans-unit>
+      <trans-unit id="NWM7B1k" resname="L'eau souterraine à Tenerife">
+        <source>L'eau souterraine à Tenerife</source>
+        <target>L'eau souterraine à Tenerife</target>
+      </trans-unit>
+      <trans-unit id="_NdJRUN" resname="Les ouvrages">
+        <source>Les ouvrages</source>
+        <target>Les ouvrages</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

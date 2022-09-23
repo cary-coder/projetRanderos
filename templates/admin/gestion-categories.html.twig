@@ -20,22 +20,22 @@
 				<tr>
 					<td>{{ categorie.id }}</td>
 					<td>{{ categorie.nom }}</td>
-					<td>{{ categorie.contenu | slice(0, 250) }}</td>
+					<td>{{ categorie.contenu | slice(0, 250) | raw}}</td>
 
-					<td><img class="img-thumbnail" src="{{ asset('photosArticles/' ~ categorie.photo)}}" alt="{{categorie.nom}}"></td>
+					<td><img class="img-thumbnail" src="{{ asset('photosCategories/' ~ categorie.photo)}}" alt="{{categorie.nom}}"></td>
 					<td>
 						<a href="{{ path( 'admin_details_categorie',{id: categorie.id} )}}">
-							<i class="fa fa-eye mx-1 text-success"></i>
+							<i class="fa fa-eye fa-2x text-success"></i>
 						</a>
 
 						<a href="{{ path('admin_update_categorie', {id: categorie.id}) }}">
 
-							<i class="fa fa-edit mx-1 text-success"></i>
+							<i class="fa fa-edit fa-2x text-success"></i>
 						</a>
 
 						<a href="{{ path('admin_delete_categorie', {id: categorie.id}) }}">
 
-							<i class="fa-solid fa-trash-can text-danger" onclick="return confirm('êtes vous sûr de vouloir supprimer la categorie ?')"></i>
+							<i class="fa-solid fa-trash-can fa-2x text-danger" onclick="return confirm('êtes vous sûr de vouloir supprimer la categorie ?')"></i>
 						</a>
 					</td>
 				</tr>
@@ -44,6 +44,6 @@
 	</tbody>
 </table>
 <a href="{{ path('admin_ajout_categorie')}}">
-	<button type="button" class="btn btn-success">
+	<button type="button" class="btn btn-lg btn-success">
 		ajouter categorie</button>
 </a>{% endblock content%}

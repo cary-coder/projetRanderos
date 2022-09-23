@@ -1,0 +1,23 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}
+	Thanks
+{% endblock %}
+
+{% block content %}
+	<div class="container-fluid">
+		<div class="center text-center">
+			<img class="img-fluid rounded-bottom" width="480" height="350" src="/image/magroño.jpg" alt="paysage"/>
+			<h3 class="text-primary">{{ 'Remerciements' | trans }}</h3>
+		</div>
+		<p>{% trans %}
+			Sur les chemins qui nous mènent aux galeries ou aux puits, nous rencontrons souvent des habitants qui travaillent dans leur ferme située dans la mediania. Ils nous apportent de précieuses indications sur les galeries proches ou sur la distribution de l'eau dans leur secteur. Nous les en remercions.
+		{% endtrans %}</p>
+		<p>{% trans %}De même, nous avons rencontré des «mineros» (travailleurs des galeries), toujours très accueillants et avec qui nous avons pu échanger pendant des heures sur le thème des galeries et des puits.{% endtrans %}</br>
+		{% trans %}A ce titre, nous souhaitons remercier nos amis Juan José, Cristian et leur collègues de l'entreprise El Magroño S.L. pour leur gentillesse et les explications qu'ils nous donnent, indispensables à la comprehension de leur dur travail.{% endtrans %}
+		</p>
+		<div class="center text-center">
+			<img src="/image/LogoMagroñoazul.jpg" class="img-fluid" width="160" height="100" alt="logo">
+		</div>
+	</div>
+{% endblock content %}

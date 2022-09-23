@@ -1,46 +1,23 @@
 {% extends "layout.html.twig" %}
 
 {% block title %}
-	qui sommes nous
+	About us
 {% endblock %}
 
 {% block content %}
-
-
-	<div class="row d-flex justify-content-center text-left">
-
-		<h1>
-			Qui sommes nous:
-		</h1>
-		<p>When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.Every night, it wanders around in search of prey, whose movements it restrains by spewing threads before it bites into them with its fangs.Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.</p>
-
-		<p>You can tell how it’s feeling by the smoke spouting from its shell. Tremendous velocity is a sign of good health.Gardevoir has the psychokinetic power to distort the dimensions and create a small black hole. This Pokémon will try to protect its Trainer even at the risk of its own life.On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokémon’s head contain a vicious poison.</p>
-
-		<p>Carrying food through Fearow’s territory is dangerous. It will snatch the food away from you in a flash!When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.Postcards and posters featuring Mantine leaping elegantly above the waves are popular souvenirs of Alola.</p>
-
-		<p>While Milotic is said to be the most beautiful Pokémon, Trainers who like Feebas and have raised it are seemingly disappointed by Milotic.Seedot looks exactly like an acorn when it is dangling from a tree branch. It startles other Pokémon by suddenly moving. This Pokémon polishes its body once a day using leaves.It doesn’t do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.</p>
-
-
-		<p>Shiftry’s large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This Pokémon chooses to live quietly deep in forests.As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.It freezes its prey and chews them whole. However, it prefers to eat Pokémon like Vanillite that are already frozen.</p>
-
-
-		<p>Swablu loves to make things clean. If it spots something dirty, it will wipe and polish it with its cottony wings. If its wings become dirty, this Pokémon finds a stream and showers itself.Swellow is very conscientious about the upkeep of its glossy wings. Once two Swellow are gathered, they diligently take care of cleaning each other’s wings.Jirachi will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire.</p>
-		<h1>
-			Nos valeurs:
-		</h1>
-		<p>When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.Every night, it wanders around in search of prey, whose movements it restrains by spewing threads before it bites into them with its fangs.Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.</p>
-
-		<p>You can tell how it’s feeling by the smoke spouting from its shell. Tremendous velocity is a sign of good health.Gardevoir has the psychokinetic power to distort the dimensions and create a small black hole. This Pokémon will try to protect its Trainer even at the risk of its own life.On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokémon’s head contain a vicious poison.</p>
-
-		<p>Carrying food through Fearow’s territory is dangerous. It will snatch the food away from you in a flash!When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.Postcards and posters featuring Mantine leaping elegantly above the waves are popular souvenirs of Alola.</p>
-
-		<p>While Milotic is said to be the most beautiful Pokémon, Trainers who like Feebas and have raised it are seemingly disappointed by Milotic.Seedot looks exactly like an acorn when it is dangling from a tree branch. It startles other Pokémon by suddenly moving. This Pokémon polishes its body once a day using leaves.It doesn’t do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.</p>
-
-
-		<p>Shiftry’s large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This Pokémon chooses to live quietly deep in forests.As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.It freezes its prey and chews them whole. However, it prefers to eat Pokémon like Vanillite that are already frozen.</p>
-
-
-		<p>Swablu loves to make things clean. If it spots something dirty, it will wipe and polish it with its cottony wings. If its wings become dirty, this Pokémon finds a stream and showers itself.Swellow is very conscientious about the upkeep of its glossy wings. Once two Swellow are gathered, they diligently take care of cleaning each other’s wings.Jirachi will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire.</p>
-
+	<div class="container-fluid">
+		<div class="center text-center">
+			<img class="img-fluid rounded-bottom" width="480" height="350" src="/image/randeros3.jpg" alt="paysage"/>
+			<h1 class="text-primary">{{ 'Qui sommes-nous?' | trans }}
+			</h1>
+		</div>
+		<p>{% trans %}A la fin de nos vacances à Tenerife en 2011, nous avons décidé de venir nous y installer plus tard. Aujourd'hui c'est chose faite et, comme randonneurs chevronnés, nous pouvons apprécier chaque jour les innombrables richesses de cette île.{% endtrans %}
+		</p>
+		<p>{% trans %}Au delà des paysages magnifiques, des côtes de l'océan, des monts et des barrancos, jusqu'au  sommet du Teide, nous nous interessons à un sujet très important pour une île volcanique qui ne possède ni fleuve, ni rivière : l'eau.{% endtrans %}
+		</p>
+		<p>{% trans %}Ainsi depuis plusieurs mois, nous partons chaque semaine, un peu partout dans l'île, à la rencontre des galeries d'eau qui fournissent depuis plus d'un siècle, et encore aujourd'hui la majeure partie de l'approvisionement de Tenerife.{% endtrans %}
+		</p>
+		<p>{% trans %}Ce site a pour objectif de partager nos découvertes et de comprendre ce qui se passe en amont des robinets d'eau de nos habitations{% endtrans %}
+		</p>
 	</div>
 {% endblock content %}

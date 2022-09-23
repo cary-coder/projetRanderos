@@ -18,8 +18,6 @@ use Symfony\Component\String\Slugger\SluggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 
-
-
 //*********************ROUTES ADMIN CRUD ARTICLES ET CATEGORIES*****************/
 
 #[Route('/admin', name: 'admin_')]
@@ -60,7 +58,7 @@ class AdminController extends AbstractController
             }catch(FileException $e){
                 //gestion des erreurs upload image
             }
-            // on stocke limage (le nom) dans la BDD
+            // on stocke l'image (le nom) dans la BDD
             $img= new Images();
             $img->setName($fileName);
             $article->addImage($img);
@@ -206,7 +204,7 @@ class AdminController extends AbstractController
     }
 
     /**--------ADMIN - CRUD-GESTION DES CATEGORIES--------------*/
-/***********ROUTE AJOUT CATEGORIE *****************************/
+    /***********ROUTE AJOUT CATEGORIE *****************************/
     #[Route('/categorie-ajout', name: 'ajout_categorie')]
 
     public function ajoutCategorie(Request $request, CategorieRepository $repo, SluggerInterface $slugger, EntityManagerInterface $manager)
@@ -235,7 +233,7 @@ class AdminController extends AbstractController
             
             //on deplace l'image dans le dossier parametré dans service.yaml
             try{
-                $imageFile->move($this->getParameter('photos_articles'), $fileName);
+                $imageFile->move($this->getParameter('photos_categories'), $fileName);
             }catch(FileException $e){
                 //gestion des erreurs upload image
             }
@@ -256,8 +254,8 @@ class AdminController extends AbstractController
         ]);
     }
 
-  //*************ROUTE EDIT & UPDATE CATEGORIE PAR ID ***********/
- #[Route("/update-categorie-{id<\d+>}", name:"update_categorie")]
+    //*************ROUTE EDIT & UPDATE CATEGORIE PAR ID ***********/
+    #[Route("/update-categorie-{id<\d+>}", name:"update_categorie")]
     public function updateCat($id, CategorieRepository $repo, Request $request,  SluggerInterface $slugger)
     {
          //code pour vérifier l'autentification, si l'user n'est pas connecté
@@ -284,7 +282,7 @@ class AdminController extends AbstractController
             
             //on deplace l'image dans le dossier parametré dans service.yaml
             try{
-                $imageFile->move($this->getParameter('photos_articles'), $fileName);
+                $imageFile->move($this->getParameter('photos_categories'), $fileName);
             }catch(FileException $e){
                 //gestion des erreurs upload image
             }

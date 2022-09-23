@@ -14,10 +14,10 @@
 			{{ categorie.nom }}</h3>
 
 		<div class="card" style="width: 50rem;">
-			<img class="d-block w-100 vh-50" src="{{asset('photosArticles/' ~ categorie.photo)}}" alt="Card image cap">
+			<img class="d-block w-100 vh-50" src="{{asset('photosCategories/' ~ categorie.photo)}}" alt="Card image cap">
 
 			<div class="card-body">
-				<p class="card-text">{{ categorie.contenu }}
+				<p class="card-text">{{ categorie.contenu | raw}}
 				</p>
 			</div>
 		</div>

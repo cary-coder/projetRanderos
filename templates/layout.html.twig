@@ -1,42 +1,57 @@
 {% extends "base.html.twig"%}
-{# on hérite de la page base.thml.twig #}
+{# on hérite de la page base.html.twig #}
 
 {% block body%}
+
 {{ parent() }}
 {# permet de garder le contenu du block parent situé dans base#}
 
 <header>
-	<navLogo</a class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Randeros</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<a class="navbar-brand" href="{{ path('app_home')}}">
+				<img src="/image/favicon-96x96.png" alt="favicon" width="35" height="35" class="d-inline-block align-text-center">
+				Tenerife Randeros
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
+			<div class="collapse navbar-collapse" id="navbarColor01">
+				<ul class="navbar-nav me-auto">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="{{ path('app_home')}}">Accueil</a>
+						<a class="nav-link active" aria-current="page" href="{{ path('app_home')}}">{% trans %}Accueil{% endtrans %}</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="{{ path('articles_all')}}">Articles</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							{% trans %}Articles{% endtrans %}
+						</a>
+						<ul class="dropdown-menu rounded-3">
+							<li>
+								<a class="dropdown-item" href="{{ path('articles_derniers')}}">{% trans %}Nouveautés{% endtrans %}</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="{{ path('articles_all')}}">{% trans %}Tous les articles{% endtrans %}</a>
+							</li>
+						</ul>
 					</li>
+					<li>
+						<a class="nav-link" href="{{ path('articles_tenerife')}}">{% trans %}Tenerife plus{% endtrans %}</a>
+					</li>
+
 					{% if not is_granted("IS_AUTHENTICATED_FULLY") %}
 
 						<li class="nav-item">
-							<a class="nav-link" href="{{ path('app_login')}}">Connexion</a>
+							<a class="nav-link" href="{{ path('app_login')}}">{% trans %}Connexion{% endtrans %}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ path('app_register')}}">Inscription</a>
-
+							<a class="nav-link" href="{{ path('app_register')}}">{% trans %}Inscription{% endtrans %}</a>
 						</li>
 					{% else %}
 						<li class="nav-item">
-							<a class="nav-link" href="{{path('app_logout')}}">Déconnexion</a>
-
+							<a class="nav-link" href="{{path('app_logout')}}">{% trans %}Déconnexion{% endtrans %}</a>
 						</li>
 					{% endif %}
 					{% if is_granted("IS_AUTHENTICATED_FULLY") and is_granted("ROLE_ADMIN") %}
-
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Admin
@@ -44,83 +59,116 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<li>
 									<a class="dropdown-item" href="{{ path('admin_ajout_article')}}">Ajout d'un Article</a>
-
 								</li>
 								<li>
 									<a class="dropdown-item" href="{{ path('admin_ajout_categorie')}}">Ajout d'une categorie</a>
-
 								</li>
-
 								<li>
 									<a class="dropdown-item" href="{{ path('admin_gestion_articles')}}">Gestion Articles</a>
-
 								</li>
 								<li>
 									<a class="dropdown-item" href="{{ path('admin_gestion_categories')}}">Gestion Categories</a>
-
 								</li>
 							</ul>
 						</li>
-					</ul>
-				{% endif %}
-			</div>
-			{% if is_granted('IS_AUTHENTICATED_FULLY') %}
-				<h4 class="text-success">
-					Bonjour
-					{{app.user.pseudo}}
-				</h4>
-			{% endif %}
+					{% endif %}
+					<li class="nav-item">
+						<a class="nav-link" href="{{ path('layout_qui')}}">
+							{% trans %}À Propos{% endtrans %}</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ path('layout_contact')}}">{% trans %}Nous contacter{% endtrans %}</a>
+					</li>
 
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							{% trans %}Décharger le PDF{% endtrans %}
+						</a>
+						<ul class="dropdown-menu rounded-3">
+							<li>
+								<a class="dropdown-item" target="_blank" href="{{ asset('documents/MonPDFTenerifeEauSouterraine.pdf')}}">fr</a>
+							</li>
+							<li>
+								<a class="dropdown-item" target="_blank" href="#">es</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+					<h4 class="text-success">
+						{% trans %}Bonjour
+						{% endtrans %}
+						{{app.user.pseudo}}!
+					</h4>
+				{% endif %}
+				<ul class="navbar-nav ml-auto">
+					{% for locale in locales %}
+						{% if locale != app.request.locale %}
+							<li class="nav-item">
+								<a class="nav-link" href="{{ path('change_locale', {'locale': locale})}}">
+									<img src="{{ asset('image/'~locale~'.png')}}" alt="{{locale}}" width="25" height="25"></a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+
+			</div>
 		</div>
 	</nav>
 </header>
-
-<main class="container mb-5 pb-5">
+<main class="container mb-5 mt-5 pb-5">
 	{% for message in app.flashes('error') %}
-		<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
-			<div class="card-header">Erreur!</div>
-
-			<div class="card-body">
-				<h4 class="card-title">{{message}}</h4>
-			</div>
-		{% endfor %}
-		{% for message in app.flashes('success') %}
-			<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-				<div class="card-header">Succès!</div>
-
-				<div class="card-body">
-					<h4 class="card-title">{{message}}</h4>
-				</div>
-			</div>
-		{% endfor %}
-
-		{% block content %}
-			{# ce block restera vide dans le layout, c'est là ou viendra s'insérer le contenu propre à chaque page #}
-		{% endblock %}
-	</main>
-
-	<footer class="fixed-bottom bg-primary">
+		<div class="alert alert-danger text-center ">
+			{{message}}</div>
+	{% endfor %}
+	{% for message in app.flashes('success') %}
+		<div class="alert alert-success text-center ">
+			{{message}}</div>
+	{% endfor %}
+	{% block content %}{# ce block restera vide dans le layout, c'est là ou viendera s'inserer le contenu propre à chaque page #}{% endblock %}
+</main>
+<div style="height:1000px;"></div><!-- Footer --><footer class="bg-primary text-center fixed-bottom">
+	<div class="nav justify-content-center">
+		<a class="text-right" href="#top">
+			<i class="fa-solid fa-circle-chevron-up fa-2x" id="chevron"></i>
+		</a>
+	</div>
+	<div class="nav justify-content-center">
 		<nav class="nav">
 			<ul class="nav justify-content-center">
 				<li class="nav-item">
-					<a class="nav-link active" href="{{ path('home_cgu')}}">-CGU</a>
-
+					<a class="nav-link" href="{{ path('layout_cgu')}}">CGU</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ path('home_contact')}}">-Nous contacter</a>
+					<a class="nav-link" href="{{ path('layout_vieprive')}}">{% trans %}Vie privée et cookies{% endtrans %}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ path('home_qui')}}">
-
-						- Qui sommes nous</a>
+					<a class="nav-link" href="{{ path('layout_liens')}}">
+						{% trans %}Liens utiles et bibliographie
+						{% endtrans %}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ path('home_liens')}}">
-						- Liens utiles</a>
+					<a class="nav-link" href="{{ path('layout_remerciements')}}">
+						{% trans %}Remerciements
+						{% endtrans %}
+					</a>
 				</li>
-			</nav>
-			<div class="nav justify-content-center">
-				<p class="text-success">&copy; tous droits reservés, Randeros</p>
-			</div>
-		</footer>
-	{% endblock body%}
+			</li>
+		</ul>
+	</nav>
+</div>
+<hrclass="text-success"><!-- Copyright --><div class="justify-content-center text-success">
+		<p>
+			<small>&copy; 2022
+				{% trans %}Tous droits reservés
+				{% endtrans %}
+				<img src="/image/favicon.ico" alt="favicon" width="20" height="20" class="d-inline-block align-text-top">
+				Tenerife Randeros<br>{% trans %}Fait par Maria Deschamps | avec
+				{% endtrans %}
+				Symfony All rights reserved |
+				<a href="https://www.flaticon.es" target="_blank" text-decoration-line="none" title="españa iconos">{% trans %}Icônes créées par
+					{% endtrans %}
+					Freepik - Flaticon</a>
+			</small>
+		</p>
+	</div><!--end Copyright --></footer>{% endblock body%}

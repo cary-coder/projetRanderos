@@ -6,6 +6,9 @@
 parameters:
   photos_articles: "%kernel.project_dir%/public/photosArticles"
   photos_categories: "%kernel.project_dir%/public/photosCategories"
+  locale: fr
+  app.locales: [fr, es]
+
 
 services:
   # default configuration for services in *this* file
@@ -21,6 +24,11 @@ services:
       - "../src/DependencyInjection/"
       - "../src/Entity/"
       - "../src/Kernel.php"
+  
+
+ # App\Controller\:
+ #  resource: "../src/Controller"
+ #  tags: ["controller.service_arguments"]
 
   # add more service definitions when explicit configuration is needed
   # please note that last definitions always *replace* previous ones

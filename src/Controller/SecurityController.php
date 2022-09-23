@@ -36,7 +36,7 @@ class SecurityController extends AbstractController
      #[Route("/passer-en-admin_{id<\d+>}", name:"paser_en_admin")]
           public function passerEnAdmin(UserRepository $repo, Request $request, $id)
      {
-        $secret = "123456789";
+        $secret = "Echeyde@726";
 
         $form =$this->createForm(AdminType::class);
         $form->handleRequest($request);

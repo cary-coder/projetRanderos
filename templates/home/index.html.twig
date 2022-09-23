@@ -1,92 +1,69 @@
 {% extends 'layout.html.twig' %}
-{% block title %}Hello HomeController!
+{% block title %}Hello Home!
 {%
 endblock %}
 {% block content %}
-	<div class="row mt-5">
-		<h1>Bienvenue sur le site Randeros!</h1>
-		<br>
-		<h2>Introduction:</h2>
-		<div>
-			<p>
-				Id labore nisi ad sunt sunt qui tempor dolor nostrud. Eiusmod exercitation
-																																																																																																																									occaecat exercitation anim ullamco consectetur pariatur irure. Commodo
-																																																																																																																									exercitation dolor sit id sit laborum sint. Amet tempor eiusmod occaecat
-																																																																																																																									voluptate non et nostrud excepteur sint dolore amet laboris consectetur.
-																																																																																																																									Cupidatat veniam veniam consectetur consequat cillum commodo labore est
-																																																																																																																									eiusmod elit ipsum ipsum laborum dolor. Consequat proident excepteur commodo
-																																																																																																																									ex aliquip amet ullamco nisi proident dolore. Sint esse anim et excepteur
-																																																																																																																									magna ad minim occaecat ut. Fugiat proident adipisicing eu sunt tempor.
-																																																																																																																									Adipisicing non adipisicing sunt Lorem reprehenderit culpa.
-			</p>
-
-			<p>
-				Cupidatat irure occaecat aliqua nulla cupidatat amet nulla quis nisi
-																																																																																																																									occaecat labore esse pariatur anim. Culpa do pariatur commodo occaecat ipsum
-																																																																																																																									ad veniam sunt ullamco tempor. Eu adipisicing exercitation pariatur nulla
-																																																																																																																									consectetur non sunt sint pariatur ipsum enim irure in. Esse aute commodo
-																																																																																																																									deserunt mollit mollit voluptate consequat commodo consequat eiusmod
-																																																																																																																									cupidatat laborum dolor. Anim nisi nulla minim reprehenderit nulla in anim
-																																																																																																																									culpa ut mollit esse laboris dolore. Labore laboris qui sint est consequat
-																																																																																																																									et. Consequat officia consequat tempor fugiat officia elit sit velit mollit
-																																																																																																																									elit quis adipisicing sunt. Anim anim aliqua qui id eu ullamco Lorem sit
-																																																																																																																									anim do. Anim aute aliqua tempor ad sunt laborum culpa. Ea labore mollit
-																																																																																																																									veniam labore cillum deserunt qui incididunt proident duis magna aliqua
-																																																																																																																									dolor duis. Adipisicing quis ea ipsum sit et minim id. Elit eiusmod sunt
-																																																																																																																									aute ad ipsum commodo excepteur Lorem fugiat esse. Adipisicing anim anim est
-																																																																																																																									irure ex in ea. Ullamco ea non ut Lorem nostrud nisi ex labore ullamco aute
-																																																																																																																									commodo. Veniam aute eu qui laborum nostrud laboris mollit cupidatat officia
-																																																																																																																									ullamco sit voluptate. Est id voluptate esse ut irure. Dolor id qui tempor
-																																																																																																																									qui labore. Ullamco laborum in eu fugiat veniam aliquip reprehenderit tempor
-																																																																																																																									incididunt consectetur commodo pariatur officia mollit. Ex pariatur sint ea
-																																																																																																																									id. Lorem laborum ex cillum laboris minim excepteur dolore ipsum qui enim
-																																																																																																																									amet reprehenderit.
-			</p>
-
-			<p>
-				Exercitation culpa eu ullamco ut cupidatat dolore eiusmod sint. Consequat
-																																																																																																																									proident id consectetur id laboris. Proident proident id commodo officia
-																																																																																																																									nulla aliqua esse labore. Exercitation minim occaecat enim tempor cupidatat
-																																																																																																																									aute magna est ipsum quis in qui. Exercitation sit eu enim aute est quis
-																																																																																																																									tempor amet nisi laborum ad ipsum. Duis veniam ipsum ut eiusmod aliquip
-																																																																																																																									excepteur dolore commodo ad sit esse Lorem consequat non. Nisi consectetur
-																																																																																																																									adipisicing nulla occaecat pariatur excepteur pariatur veniam. Et nostrud
-																																																																																																																									consectetur pariatur sunt duis elit incididunt dolor mollit mollit commodo
-																																																																																																																									elit. Eu et consectetur culpa sint aliqua occaecat. Laboris dolore aliquip
-																																																																																																																									exercitation laborum ex non occaecat exercitation mollit elit id magna. Amet
-																																																																																																																									eu esse occaecat cillum reprehenderit non est eu ullamco mollit. Sit dolor
-																																																																																																																									sunt exercitation eiusmod deserunt do mollit veniam labore pariatur
-																																																																																																																									cupidatat cillum labore. Eiusmod pariatur magna elit aute esse est labore
-																																																																																																																									laboris consequat culpa commodo. Elit Lorem voluptate aliquip mollit elit ut
-																																																																																																																									esse magna amet cupidatat. Velit quis non sunt ex excepteur ad eu anim. Non
-																																																																																																																									veniam ea veniam elit nisi. Do quis ipsum Lorem ad non. In culpa et pariatur
-																																																																																																																									consectetur irure nulla culpa minim ut quis duis eiusmod. Enim deserunt non
-																																																																																																																									eu ipsum et qui sunt Lorem non irure aliquip occaecat ea. Minim non
-																																																																																																																									consequat pariatur id culpa deserunt laboris consequat. Officia aliqua velit
-																																																																																																																									aliquip eu. Ea amet occaecat occaecat aute ullamco mollit aliquip
-																																																																																																																									consectetur laboris. Officia cillum labore anim nisi enim non voluptate
-																																																																																																																									reprehenderit.
-			</p>
-		</div>
-		<div class="row my-auto mx-auto align-items-center texte-center" style="height: 70vh">
-			{% for categorie in categories %}
-				<div class="card m-3" style="width: 20rem;">
-					<div class="card-body">
-						<img class="card-img-top" src="{{asset('photosArticles/' ~ categorie.photo)}}" alt="Card image cap">
-						<h5 class="card-title text-uppercase text-info">
-
-							{{ categorie.nom }}</h5>
-						<p class="card-text">
-							{{ categorie.contenu| slice(0, 250) }}
+	<div class="container-fluid">
+		<h2 class="text-primary text-center">{% trans %}Bienvenue sur le site Tenerife Randeros{% endtrans %}
+		</h2>
+		<img src="/image/randeros1.jpg" class="img-fluid rounded-bottom" alt="paysage teide">
+		<h1 class="text-primary text-center text-uppercase">{% trans %}L'eau souterraine à Tenerife{% endtrans %}
+		</h1>
+		<div class="accordion accordion-flush" id="accordionFlushExample">
+			<div class="accordion-item">
+				<h5 class="accordion-header text-primary" id="flush-headingOne">
+					<button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+						{% trans %}INTRODUCTION{% endtrans %}
+					</button>
+				</h5>
+				<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+					<div class="accordion-body">
+						<p>{% trans %}A Tenerife, comme dans tous les pays du monde, l'eau est une ressource indispensable à la vie. Bien qu'il n'y ait ni fleuve ni rivière dans l'île, les ressources hydriques sont importantes. Elles sont de trois types : les eaux superficielles, les eaux souterraines et les eaux produites industriellement.{% endtrans %}
+							<br>{% trans %}Tenerife dépend à 80 % des eaux souterraines à la fois pour couvrir ses besoins d'approvisionnement urbain et pour maintenir l'agriculture.{% endtrans %}
 						</p>
-						<a href="{{ path( 'categorie_show',{id: categorie.id} )}}">
-							<i class="fa fa-eye mx-2 text-info"></i>
-						</a>
-					</div>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
+						<p>{% trans %}Le sol de l'île est poreux en surface donc assez perméable. Il se transforme en un complexe basal imperméable à une certaine profondeur. L'eau de pluie, la neige et l'humidité qui se condense s'infiltrent dans le sol et atteignent les aquifères (portion de terrain souterrain qui stocke l'eau) se trouvant au niveau du complexe basal. Ces grandes poches d'eau souterraine sont essentielles à la survie puisqu'elles garantissent l'approvisionnement en eau des habitants de l'île. S’il y a un élément qui caractérise le sous-sol d’une île volcanique comme Tenerife, c’est son extraordinaire hétérogénéité, entrainant l’irrégularité de la circulation des eaux souterraines. Ainsi, leur captation à travers la zone saturée rencontre des sections complètement sèches et d'autres avec un fort débit. Certaines zones fournissent donc une quantité d'eau élevée tandis que d’autres zones adjacentes ne fournissent que des débits faibles. En effet, les éléments qui composent le sous-sol (terrains jeunes ou anciens, diques, brèches de grande puissance, etc.) sont organisés selon certaines modalités qui reflètent le lent processus de construction de l’île et entrainent des différences dans le degré de perméabilité de ces éléments lithologiques. Comme principe presque général on peut affirmer que ces différences sont plus grandes dans les terrains jeunes que dans les anciens.{% endtrans %}</p>
+						<p>{% trans %}Contrairement à d'autres îles qui ont opté pour le système d'exploitation des puits, Tenerife a choisi comme ouvrage de captacion dominant la galerie horizontale qui est la plus adaptée à l'orographie abrupte de l'île. Depuis la fin du XIXème siècle, quelques 1050 galeries ont été creusées, dont certaines mesurent jusqu'à 7 km de long. Ce réseau représente au total plus de 1600 kilomètres forés, même si beaucoup de galeries n'ont jamais été productives ou sont devenues hors d'usage au fil du temps. Si on considère qu'à ce réseau de captages horizontaux s'ajoutent les captages verticaux, c'est à dire plus de 400 puits qui se répartissent le long de la bande littorale, il en résulte qu'il n'y a aucune partie de l'île qui n'a pas ou n'a pas eu de travaux d'extraction d'eau souterraine. En 2005, par exemple, la densité moyenne de ces ouvrages sur le territoire insulaire était de un tout les 1,4 km2.{% endtrans %}
+							<br>{% trans %}Le réseau de collecte actuel a été construit à partir d'initiatives strictement privées et a radicalement modifié la disponibilité de l'eau à Tenerife : les 700 litres/seconde fournies par des sources naturelles au debut du XXème siècle ont augmenté jusqu'à plus de 7000 litres/s au milieu des années 60. Ce saut quantitatif a eu des conséquences qualitatives très importantes, favorisant le développement de l'agriculture, du tourisme et de l'industrie.{% endtrans %}
+						</p>
 
-{% endblock content %}
+						<div class="text-center">
+							<img class="img-fluid rounded-bottom" width="800" height="445" src="/image/tensud.jpg" alt="paysage tenerife">
+						</div>
+						<br/>
+						<p>{% trans %}L'exploitation de l'eau souterraine par le percement de galeries est un processus ancien qui reste toujours aujourd'hui compliqué et dangereux. De nombreux travailleurs ont perdu la vie afin que l'eau puisse être utilisée par les populations. Il est important de s'en souvenir.{% endtrans %}
+							<br>{% trans %}De même, cette exploitation a entrainé à de nombeuses reprises des conflits entre propriétaires terriens et populations ou entre propriétaires terriens eux-mêmes.{% endtrans %}
+							<br>{% trans %}Des situations qui ont pour origine la répartition des terres entre conquistadores à la fin de la conquête de l'île (à partir de 1496). En effet dans une même région ou municipalité, certaines parcelles possedaient beaucoup de sources naturelles d'autres moins mais toutes généralement en contact avec la même masse d'eau (acuifère saturé ou pas).{% endtrans %}
+							<br>{% trans %}De ce fait le percement d'une nouvelle galerie sur une parcelle entrainait souvent une diminution du débit d'une galerie sur une autre parcelle. Situation qui se réglait toujours par voie de justice. {% endtrans %}
+							</p>
+						<p>{% trans %}La question de l'eau à Tenerife (et dans l'Archipel canarien) est donc extrèmement importante. Si l'activité agricole se maintient à un certain niveau (bananes et pommes de terre notamment) malgré la fin de la culture de la tomate, la demande en eau augmente chaque année en fonction de l'augmentation de l'activité touristique. Les ressouces en eau souterraine ne sont pas inépuisables et leur niveau baisse chaque année. Il y a donc danger d'épuisement de cette ressource vieille de millions d'années.{% endtrans %}
+							<br>{% trans %}Un plan hydrologique insulaire a été mis en place depuis 1997. Il consiste à analyser la consommation d'eau et à étudier les manières d'augmenter la production d'eau. L'agriculture est le principal secteur de consommation d'eau, suivie par les besoins en approvisionnement des habitants (résidents et touristes).{% endtrans %}
+							<br>{% trans %}Certaines options proposées passent par le dessalement de l'eau de mer et l'épuration des eaux usées afin de les utiliser sur les terres irrigables. La première station de dessalement démarra son activité au sud de l'île en 1998. Tenerife dispose aussi de stations d'amélioration de la qualité des eaux souterraines, qui éliminent les minéraux nocifs qu'elles contiennent (par exemple le fluor) pour la rendre apte à la consommation humaine. {% endtrans %}
+						</p>
+						<p>{% trans %}L'eau souterraine, les galeries, les puits, et les travailleurs de cette industrie historique font partie du patrimoine de Tenerife (et des Canaries en général). Et pourtant il y a peu de traces du respect et de la valorisation que ce patrimoine mérite.{% endtrans %}
+						</p>
+				</div>
+			</div>
+		</div>
+		<br/>
+	</div>
+	<h2 class="text-primary text-center ">{% trans %}Les ouvrages{% endtrans %}</h2>
+
+</br>
+<div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" style=" height: 50vh">
+	{% for categorie in categories | filter (categorie => categorie.nom != 'Tenerife') | sort((a,b)=> a.nom <=> b.nom) %}
+		<div class="card text-center m-3" style="width: 20rem;">
+			<img class="card-img-top" src="{{asset('photosCategories/' ~ categorie.photo)}}" alt="Card image cap">
+			<div class="card-body">
+				<h2 class="card-title text-uppercase text-primary text-align-center">
+					{{ categorie.nom }}</h2>
+				<p class="card-text">
+					{{ categorie.contenu| slice(0, 250) | raw }}...
+
+				</p>
+				<a href="{{ path( 'categorie_show',{id: categorie.id} )}}" class="btn btn-primary btn-lg" role="button">
+					{% trans %}Lire plus{% endtrans %}</a>
+			</div>
+		</div>
+	{% endfor %}
+</div></div>{% endblock content %}
 

@@ -1,17 +1,90 @@
 {% extends "layout.html.twig" %}
-
 {% block title %}
-	liens
+	Links
 {% endblock %}
-
 {% block content %}
-<h1>Liens utiles</h1>
 
+	<h1 class="text-primary">{{ 'SITES ET PUBLICATIONS' | trans }}</h1>
+	<h2 class="text-primary">{{ '(Sources des informations fournies)' | trans }}</h2>
+	<h3 class="text-primary">{{ 'Liens' | trans }}</h3>
 	<div class="list-group">
-		<a href="#" class="list-group-item list-group-item-action active">Adresse1</a>
-		<a href="#" class="list-group-item list-group-item-action">Adresse2</a>
-		<a href="#" class="list-group-item list-group-item-action disabled">Adresse3</a>
-
+		<div class="col-10">
+			<a href="https://www.camaradeaguas.com/" target="_blank" class="list-group-item list-group-item-action-active ">Cámara Insular de Aguas de Tenerife
+			</a>
+			<a href="https://www.aguastenerife.org/" target="_blank" class="list-group-item list-group-item-action-active">Consejo Insular de Aguas de Tenerife (CIATF)
+			</a>
+			<a href="https://www.gobiernodecanarias.org/aguas/" target="_blank" class="list-group-item list-group-item-action-active">Gobierno de Canarias
+			</a>
+		</div>
+	</div>
+	<br/>
+	<div class="list-group">
+		<h3 class="text-primary">{{ 'Bibliographie' | trans }}</h3>
+		<ul>
+			<li>
+				Manual Técnico de Ejecución de Galerías.<br/>
+				<em>Dirección General de Industria del Gobierno de Canarias en
+														colaboracióncon la empresa Interra, Ingeniería y Recursos S.L. 2011</em>
+			</li>
+			<li>
+				Boletin Oficial del Estado : Real Decreto 863/1985, de 2 de abril, por el
+												que se aprueba el Reglamento General de Normas Básicas de Seguridad
+												Minera.
+			</li>
+			<li>
+				Boletin Oficial de Canarias : Decreto 232/2008, de 25 de noviembre, por el
+												que se regula la seguridad de las personas en las obras e instalaciones
+												hidráulicas subterráneas de Canarias.
+			</li>
+			<li>
+				Manual Técnico de Ejecución de Galerías<br/><em>Dirección General de Industria del Gobierno de Canarias en
+														colaboracióncon la empresa Interra, Ingeniería y Recursos S.L.</em>
+			</li>
+		</ul>
 	</div>
 
+	<div class="list-group">
+		<p>
+			<strong>{{ 'Ouvrages' | trans }}
+				de Juan Carlos SANTAMARTA CERAZAL</strong>
+		</p>
+		<ul>
+			<li>
+				El aprovechamiento tradicional de las aguas subterráneas en las Islas
+												 Canarias.<br/>
+				<em>Fundación CajaCanarias 2020.</em>
+			</li>
+			<li>
+				Tratado de minería de recursos hídricos en islas volcánicas oceánicas.<br/>
+				<em>
+					Colegio Oficial de Ingenieros de Minas del Sur de España 2016.</em>
+			</li>
+			<li>
+				Agua y turismo en Tenerife: Producción, gestión y consumo.<br/>
+				<em>Universidad de La Laguna 2019.</em>
+			</li>
+			<li>
+				Ingeniería Geológica en terrenos volcánicos: métodos, técnicas y
+												experiencias en las Islas Canarias.<br/>
+				<em>Illustre Colegio Oficial de Geólogos 2015.</em>
+			</li>
+			<li>
+				Minería del agua y recursos hídricos en islas y terrenos volcánicos.<br/>
+				<em>
+					Universidad de La Laguna, 2012.</em>
+			</li>
+			<li>
+				Minería del agua en islas y terrenos volcánicos. Análisis hidrológico en
+												 explotaciones en la zona sureste de la isla de Tenerife, islas Canarias.
+				<br/>
+				<em>
+					Universidad de León 2017.</em>
+			</li>
+			<li>
+				Contenidos y Cálculos Tipo de una Mina/Galería de Agua en Terreno
+												Volcánico.<br/>
+				<em>Ilustre Colegio Oficial de Geólogos 2017.</em>
+			</li>
+		</ul>
+	</div>
 {% endblock content %}

@@ -5,11 +5,9 @@
 {%
 block content%}
 
-<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
-	<div class="card-header">Error!</div>
-	<div class="card-body">
-		<h4 class="card-title">Vous n'avez pas les droits pour accèder a cette action!</h4>
-		<p class="card-text">
-			contactez l'administrateur du site!</p>
-	</div>
-{% endblock content%}
+<div class="m-5 p-5 text-center alert alert-danger">
+	<h4>{% trans %}Vous n'avez pas les droits pour accèder à cette page! {% endtrans %}</h4>
+	<p>
+	{% trans %}Contactez l'administrateur du site!{% endtrans %}
+	</p>
+</div>{% endblock content%}

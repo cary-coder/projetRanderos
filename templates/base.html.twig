@@ -1,44 +1,99 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="/tarteaucitron/tarteaucitron.js"></script>
+
+		<script type="text/javascript">
+			tarteaucitron.init({
+"privacyUrl": "{{ path('layout_vieprive') }}", /* Privacy policy url */
+
+"bodyPosition": "bottom", /* or top to bring it as first element for accessibility */
+
+"hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+"cookieName": "tarteaucitron", /* Cookie name */
+
+"orientation": "middle", /* Banner position (top - bottom) */
+
+"groupServices": false, /* Group services by category */
+"serviceDefaultState": "wait", /* Default state (true - wait - false) */
+
+"showAlertSmall": false, /* Show the small banner on bottom right */
+"cookieslist": false, /* Show the cookie list */
+
+"closePopup": false, /* Show a close X on the banner */
+
+"showIcon": true,
+/* Show cookie icon to manage cookies */
+// "iconSrc": "", /* Optionnal: URL or base64 encoded image */
+"iconPosition": "BottomRight", /* BottomRight, BottomLeft, TopRight and TopLeft */
+
+"adblocker": false, /* Show a Warning if an adblocker is detected */
+
+"DenyAllCta": true, /* Show the deny all button */
+"AcceptAllCta": true, /* Show the accept all button when highPrivacy on */
+"highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+
+"handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+"removeCredit": false, /* Remove credit link */
+"moreInfoLink": true, /* Show more info link */
+
+"useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+"useExternalJs": false,
+/* If false, the tarteaucitron.js file will be loaded */
+
+// "cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+
+"readmoreLink": "", /* Change the default readmore link */
+
+"mandatory": true, /* Show a message about mandatory cookies */
+"mandatoryCta": true /* Show the disabled accept button when mandatory on */
+});
+tarteaucitron.user.gtagUa = 'G-7N4FDCERPL';
+
+// tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
+tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */
+};
+(tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+		</script>
 		<meta charset="UTF-8">
 		<title>
-			{% block title %}Comment s'obtient l'eau à Tenerife?
+			{% block title %}Tenerife Randeros, l'eau à Tenerife
 			{% endblock %}
 		</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico"/>
 		<meta name='robots' content='index, follow'/>
-		<meta name="description" content="Lors de notre première visite à Tenerife l'on est tombé sur le charme de ses paysages et ses gens, cependant nous nos sommes possèes des questions.
-							Comment s'obtient l'eau à Tenerife? Est-elle de qualité? Pouvons-nous consommer l'eau du robinet à Tenerife sans danger?"/>
-		<meta name="keywords" content="îles volcaniques, Canaries, Tenerife, eau, potable, galeries, puits, consommation"/>
+		<meta name="description" content="A Tenerife l'eau est une ressource indispensable à la vie. Bien qu'il n'y ait ni fleuve ni rivière dans l'île, les ressources hydriques sont importantes. Elles sont de trois types : les eaux superficielles, les eaux souterraines et les eaux produites industriellement.
+		Tenerife dépend à 80 % des eaux souterraines à la fois pour couvrir ses besoins d'approvisionnement urbain et pour maintenir l'agriculture. Contrairement à d'autres îles qui ont opté pour le système d'exploitation des puits, Tenerife a choisi comme ouvrage de captacion dominant la galerie horizontale qui est la plus adaptée à l'orographie abrupte de l'île."/>
+		<meta name="keywords" content="îles volcaniques, islas volcánicas, Canaries, Canarias, Tenerife, eau, agua, potable, galeries, galerias, puits, pozos, distribution, distribución, consommation, consumo"/>
 		<meta property="og:locale" content="fr_FR"/>
 		<meta property="og:type" content="article"/>
-		<meta property="og:title" content="Comment s'obtient l'eau à Tenerife?"/>
-		<meta property="og:description" content="Comment s'obtient l'eau à Tenerife? Est-elle de qualité? Pouvons-nous consommer l'eau du robinet à Tenerife sans danger?"/>
+		<meta property="og:title" content="L'eau à Tenerife"/>
+		<meta property="og:description" content="Comment s'obtient l'eau à Tenerife? 	Que sont les galeries horizontales?"/>
 		<meta property="og:site_name" content="randeros"/>
 		<meta property="og:image" content=""/>
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:label1" content="Durée de lecture estimée"/>
-		<meta name="twitter:data1" content="7 minutes"/>
+		<meta
+		name="twitter:data1" content="14 minutes"/>
 
-		<link
-		rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
 		{# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 		{% block stylesheet %}
 			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-			<link rel="stylesheet" href="{{ asset('css/bootstrap_flatly.css')}}">
-			<link rel="stylesheet" href="{{ asset('css/style.css')}}">
-			<link rel="stylesheet" href="{{ asset('dropify/dist/css/dropify.min.css') }}"/>
+			<link rel="stylesheet" href="{{asset('css/styles.css')}}">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
 		{% endblock %}
-
 		{% block javascripts %}
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="/js/ckeditor/ckeditor.js"></script>
 		{% endblock %}
-
 	</head>
 	<body>
-		{% block body %}{% endblock %}
+		{% block body %}{% endblock body %}
 	</body>
 </html>
