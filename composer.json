@@ -87,7 +87,7 @@
       "php bin/console doctrine:migrations:migrate"
     ]
   },
-  "conflict": {
+  "conflict": {git 
     "symfony/symfony": "*"
   },
   "extra": {
